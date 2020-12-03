@@ -29,18 +29,17 @@ bowtie_location = os.path.dirname(bowtie_path)
 os.system("bowtie-build %s ./data/temp/%s" % (genome_assembly, database))
 
 # run cctop
-# TODO: change to format {}
-cctop_command = "python ./bin/cctop_standalone/CCTop.py "\
-                "--input {input_file} "\
-                "--index ./data/temp/{database} "\
-                "--bowtie {bowtie_location} "\
-                "--pam NGG "\
-                "--sgRNA5 NN "\
-                "--totalMM 4 "\
+cctop_command = ("python ./bin/cctop_standalone/CCTop.py "
+                "--input {input_file} "
+                "--index ./data/temp/{database} "
+                "--bowtie {bowtie_location} "
+                "--pam NGG "
+                "--sgRNA5 NN "
+                "--totalMM 4 "
                 "--output ./data/temp/".format(
                 input_file=input_file,
                 database=database,
-                bowtie_location=bowtie_location)
+                bowtie_location=bowtie_location))
                 
 os.system(cctop_command)
 
