@@ -1,0 +1,178 @@
+Input:	CGAGGTTGCTTCAGCCTCGGGCTCGTGGTCGCCATCTTCCGTCGACCTGTTCCACGTCCAGGGTGTCCTCCAGAGCTCCGCGCCAGGGTCCTTTC
+PAM:	NGG
+Target site length:	20
+Target site 5' limitation:	NN
+Target site 3' limitation:	NN
+Core length:	12
+Core MM:	2
+Total MM:	4
+
+T1	CGGAGCTCTGGAGGACACCCTGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo adding fwd	TAggCGGAGCTCTGGAGGACACCC
+Oligo adding rev	AAACGGGTGTCCTCCAGAGCTCCG
+Oligo substituting fwd	TAggGAGCTCTGGAGGACACCC
+Oligo substituting rev	AAACGGGTGTCCTCCAGAGCTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369169	2369191	-	0	CGGAGCTCTGGAGGACACCC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_13	610130	610152	+	4	CGAGGCTCTGGAGGACAAGC	TGG	||--||||[|||||||||--|]PAM	NA	Intergenic	NA	NA
+
+T2	TCCTCCAGAGCTCCGCGCCAGGG	632	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggTCCTCCAGAGCTCCGCGCCA
+Oligo adding rev	AAACTGGCGCGGAGCTCTGGAGGA
+Oligo substituting fwd	TAggCTCCAGAGCTCCGCGCCA
+Oligo substituting rev	AAACTGGCGCGGAGCTCTGGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369177	2369199	+	0	TCCTCCAGAGCTCCGCGCCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_19	44046	44068	+	4	TCCTGCCGAGCGCCGCGCGA	AGG	||||-|-|[|||-||||||-|]PAM	NA	Intergenic	NA	NA
+
+T3	GGACACCCTGGACGTGGAACAGG	514	CRISPRater score	0.64 (MEDIUM)
+Oligo fwd	TAGGACACCCTGGACGTGGAAC
+Oligo rev	AAACGTTCCACGTCCAGGGTGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369157	2369179	-	0	GGACACCCTGGACGTGGAAC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_7	530140	530162	+	4	TGCCACCCTGGCGGTGGAAC	GGG	-|-|||||[|||--|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_10	1070759	1070781	+	4	GGACAAACTGGTCGTGGAAG	AGG	|||||--|[|||-|||||||-]PAM	NA	Intergenic	NA	NA
+scaffold_3	2647808	2647830	+	4	GGACGCCGTGGACGTGCTAC	CGG	||||-||-[||||||||--||]PAM	NA	Intergenic	NA	NA
+
+T4	TTGCTTCAGCCTCGGGCTCGTGG	485	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggTTGCTTCAGCCTCGGGCTCG
+Oligo adding rev	AAACCGAGCCCGAGGCTGAAGCAA
+Oligo substituting fwd	TAggGCTTCAGCCTCGGGCTCG
+Oligo substituting rev	AAACCGAGCCCGAGGCTGAAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369117	2369139	+	0	TTGCTTCAGCCTCGGGCTCG	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_3	1392583	1392605	-	4	TGGCTTCGGGCTCGCGCTCG	CGG	|-|||||-[|-||||-|||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	1656626	1656648	-	4	TCGCTTGAGCCGCGGCCTCG	CGG	|-||||-|[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	1684555	1684577	-	4	TCGCTTGAGTCTCGGGCTTG	GGG	|-||||-|[|-||||||||-|]PAM	NA	Intergenic	NA	NA
+scaffold_2	1004377	1004399	+	4	TTGGTTTAGGCTCGGGCTTG	TGG	|||-||-|[|-||||||||-|]PAM	NA	Intergenic	NA	NA
+scaffold_6	331727	331749	+	4	TTGCCTCCGCCTCGGGCTAC	TGG	||||-||-[||||||||||--]PAM	NA	Intergenic	NA	NA
+
+T5	TGGAACAGGTCGACGGAAGATGG	220	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggTGGAACAGGTCGACGGAAGA
+Oligo adding rev	AAACTCTTCCGTCGACCTGTTCCA
+Oligo substituting fwd	TAggGAACAGGTCGACGGAAGA
+Oligo substituting rev	AAACTCTTCCGTCGACCTGTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369143	2369165	-	0	TGGAACAGGTCGACGGAAGA	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	2450822	2450844	+	4	TGTAAAACGTCGCCGGAAGA	GGG	||-||-|-[||||-|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_13	226453	226475	+	4	AGGAATGGGTCGAAGGAAGA	TGG	-||||--|[|||||-||||||]PAM	NA	Intergenic	NA	NA
+scaffold_11	62604	62626	-	4	GGGAGAAGGTCGACGGGAGA	AGG	-|||--||[||||||||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_10	320013	320035	-	4	GGGAAGAGGTCGACAAAAGA	CGG	-||||-||[||||||--||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	3063150	3063172	+	4	TGGATCTGGTCGTCGGATGA	GGG	||||-|-|[||||-||||-||]PAM	NA	Intergenic	NA	NA
+scaffold_8	2388932	2388954	+	4	AGGAAGAGGTCGAAGGAGGA	GGG	-||||-||[|||||-|||-||]PAM	NA	Intergenic	NA	NA
+scaffold_7	1682776	1682798	+	4	TTGATCAGGACGACGGAAGG	TGG	|-||-|||[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+scaffold_10	922395	922417	-	4	TCGAACAAGACGACGGAAGG	AGG	|-|||||-[|-|||||||||-]PAM	NA	Intergenic	NA	NA
+
+T6	CGTCGACCTGTTCCACGTCCAGG	168	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggCGTCGACCTGTTCCACGTCC
+Oligo adding rev	AAACGGACGTGGAACAGGTCGACG
+Oligo substituting fwd	TAggTCGACCTGTTCCACGTCC
+Oligo substituting rev	AAACGGACGTGGAACAGGTCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369151	2369173	+	0	CGTCGACCTGTTCCACGTCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_3	735080	735102	+	3	CGGCGACATCTTCCACGTCC	AGG	||-||||-[|-||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_7	264145	264167	-	4	TCTCGACCTTTTCCATGTCC	CGG	--||||||[|-|||||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_17	136311	136333	+	4	CGCCGACATGGTCCAGGTCC	CGG	||-||||-[||-||||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_4	1203476	1203498	+	4	CTGCGACCTGCTCCACGACC	GGG	|--|||||[||-||||||-||]PAM	NA	Intergenic	NA	NA
+scaffold_2	2223024	2223046	+	4	CGTCGCGCGGTTCCACGCCC	AGG	|||||--|[-||||||||-||]PAM	NA	Intergenic	NA	NA
+scaffold_6	1356706	1356728	+	4	CGTCCGCCTGTTCCTCGACC	TGG	||||--||[||||||-||-||]PAM	NA	Intergenic	NA	NA
+
+T7	AGGACCCTGGCGCGGAGCTCTGG	142	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggAGGACCCTGGCGCGGAGCTC
+Oligo adding rev	AAACGAGCTCCGCGCCAGGGTCCT
+Oligo substituting fwd	TAggGACCCTGGCGCGGAGCTC
+Oligo substituting rev	AAACGAGCTCCGCGCCAGGGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369181	2369203	-	0	AGGACCCTGGCGCGGAGCTC	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_4	296149	296171	+	4	ACGCCGATGGCGCGGAGCTC	AGG	|-|-|--|[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	3481300	3481322	+	4	AGGCCCATGTCGGGGAGCTC	AGG	|||-||-|[|-||-|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_4	513644	513666	+	3	AGGATCCTGGCGTCGAGCTC	AGG	||||-|||[||||--||||||]PAM	NA	Intergenic	NA	NA
+scaffold_2	2085959	2085981	-	4	ACGACGCTGGCGTCGAGCTC	CGG	|-|||-||[||||--||||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	3811695	3811717	+	4	AGGACTTTGGCGCGGAGTGC	CGG	|||||--|[|||||||||--|]PAM	NA	Intergenic	NA	NA
+
+T8	GTCGACCTGTTCCACGTCCAGGG	135	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGTCGACCTGTTCCACGTCCA
+Oligo adding rev	AAACTGGACGTGGAACAGGTCGA
+Oligo substituting fwd	TAGgCGACCTGTTCCACGTCCA
+Oligo substituting rev	AAACTGGACGTGGAACAGGTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369152	2369174	+	0	GTCGACCTGTTCCACGTCCA	GGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_3	735081	735103	+	3	GGCGACATCTTCCACGTCCA	GGG	|-||||-|[-|||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_2	857768	857790	-	4	GGCGATCTTTTCCGCGTCCA	CGG	|-|||-||[-||||-||||||]PAM	NA	Intergenic	NA	NA
+scaffold_4	55357	55379	+	4	ATCGACCGGGTCCACGCCCA	AGG	-||||||-[|-||||||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_10	1083042	1083064	+	4	ATCGGCCTGTTGCACGTTCA	TGG	-|||-|||[|||-|||||-||]PAM	NA	Intergenic	NA	NA
+scaffold_16	486040	486062	+	4	GCAGAACTGTTCCACGTCCT	CGG	|--||-||[|||||||||||-]PAM	NA	Intergenic	NA	NA
+
+T9	GTCCTCCAGAGCTCCGCGCCAGG	113	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGTCCTCCAGAGCTCCGCGCC
+Oligo adding rev	AAACGGCGCGGAGCTCTGGAGGA
+Oligo substituting fwd	TAGgCCTCCAGAGCTCCGCGCC
+Oligo substituting rev	AAACGGCGCGGAGCTCTGGAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369176	2369198	+	0	GTCCTCCAGAGCTCCGCGCC	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	1888493	1888515	-	4	GTCGACCAGGTCTCCGCGCC	CGG	|||--|||[|--|||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_1	1876657	1876679	-	4	GTCGACCAGGTCTCCGCGCC	CGG	|||--|||[|--|||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	2094175	2094197	-	4	CTCGTGCAGAGCTCTGCGCC	CGG	-||-|-||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+scaffold_3	3250620	3250642	+	4	TTCCTGCAGAGCATCGCGCC	CGG	-||||-||[||||--||||||]PAM	NA	Intergenic	NA	NA
+scaffold_6	1173748	1173770	-	4	GTCCTCAGGAGGTGCGCGCC	TGG	||||||--[|||-|-||||||]PAM	NA	Intergenic	NA	NA
+scaffold_13	89349	89371	+	4	GGCTTCCAGAGCTGCGCGAC	CGG	|-|-||||[|||||-||||-|]PAM	NA	Intergenic	NA	NA
+scaffold_2	1777770	1777792	+	4	GACCTCGAGAGCGCCGCGCT	AGG	|-||||-|[||||-||||||-]PAM	NA	Intergenic	NA	NA
+
+T10	AGATGGCGACCACGAGCCCGAGG	53	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggAGATGGCGACCACGAGCCCG
+Oligo adding rev	AAACCGGGCTCGTGGTCGCCATCT
+Oligo substituting fwd	TAggATGGCGACCACGAGCCCG
+Oligo substituting rev	AAACCGGGCTCGTGGTCGCCAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369126	2369148	-	0	AGATGGCGACCACGAGCCCG	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_11	1416720	1416742	-	4	GAACGGCGACCGCGAGCCCG	AGG	--|-||||[|||-||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_3	2330884	2330906	-	4	CGATTGGGACGACGAGCCCG	CGG	-|||-|-|[||-|||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_14	1077012	1077034	+	4	AGGGCGCGACCACGAGGCCG	GGG	||---|||[||||||||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_10	527746	527768	+	4	TGGTGGCGACCACATGCCCG	TGG	-|-|||||[|||||--|||||]PAM	NA	Intergenic	NA	NA
+scaffold_16	80406	80428	+	4	CGTTGGCGACAACGAGCGCG	TGG	-|-|||||[||-||||||-||]PAM	NA	Intergenic	NA	NA
+scaffold_3	2462087	2462109	+	3	TGATGGCGACGACGAGCCGG	CGG	-|||||||[||-|||||||-|]PAM	NA	Intergenic	NA	NA
+
+T11	ACCCTGGCGCGGAGCTCTGGAGG	38	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAggACCCTGGCGCGGAGCTCTGG
+Oligo adding rev	AAACCCAGAGCTCCGCGCCAGGGT
+Oligo substituting fwd	TAggCCTGGCGCGGAGCTCTGG
+Oligo substituting rev	AAACCCAGAGCTCCGCGCCAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369178	2369200	-	0	ACCCTGGCGCGGAGCTCTGG	AGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_6	1153691	1153713	+	4	ATCATGAGGCGGAGCTCTGG	CGG	|-|-||--[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	981103	981125	+	4	ACTTCGGCGAGGAGCTCTGG	CGG	||---|||[|-||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_7	994036	994058	-	4	GCCCAGTCGCGGAGCTTTGG	CGG	-|||-|-|[||||||||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_11	434030	434052	-	4	AGCTTGGCGCGCAGCACTGG	GGG	|-|-||||[|||-|||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_2	255755	255777	-	4	AGCCTGACGCGGAGCGTTGG	AGG	|-||||-|[|||||||--|||]PAM	NA	Intergenic	NA	NA
+
+T12	CTGGACGTGGAACAGGTCGACGG	28	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggCTGGACGTGGAACAGGTCGA
+Oligo adding rev	AAACTCGACCTGTTCCACGTCCAG
+Oligo substituting fwd	TAggGGACGTGGAACAGGTCGA
+Oligo substituting rev	AAACTCGACCTGTTCCACGTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369150	2369172	-	0	CTGGACGTGGAACAGGTCGA	CGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_14	670259	670281	+	4	GAGGGCGTCGAACAGGTCGA	TGG	--||-|||[-|||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	1030157	1030179	-	4	GAGGATGTGGAAGAGGTCGA	GGG	--|||-||[||||-|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_11	41487	41509	-	4	CGGGAAGGGGAAGAGGTCGA	AGG	|-|||-|-[||||-|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_6	1347249	1347271	-	4	TTTGATGTGGAACACGTCGA	AGG	-|-||-||[||||||-|||||]PAM	NA	Intergenic	NA	NA
+scaffold_2	530907	530929	+	4	ATGGACCTGGAACGCGTCGA	AGG	-|||||-|[|||||--|||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	1553877	1553899	-	4	CTGAACGAGGAACCGGACGA	GGG	|||-|||-[|||||-||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_4	1203475	1203497	-	4	CCGGTCGTGGAGCAGGTCGC	AGG	|-||-|||[|||-|||||||-]PAM	NA	Intergenic	NA	NA
+
+T13	TCTGGAGGACACCCTGGACGTGG	0	CRISPRater score	0.81 (HIGH)
+Oligo adding fwd	TAggTCTGGAGGACACCCTGGACG
+Oligo adding rev	AAACCGTCCAGGGTGTCCTCCAGA
+Oligo substituting fwd	TAggTGGAGGACACCCTGGACG
+Oligo substituting rev	AAACCGTCCAGGGTGTCCTCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+scaffold_6	2369163	2369185	-	0	TCTGGAGGACACCCTGGACG	TGG	||||||||[||||||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_18	208123	208145	-	3	GCTGCAGGACACCGTGGACG	CGG	-|||-|||[|||||-||||||]PAM	NA	Intergenic	NA	NA
+scaffold_11	300224	300246	-	4	GCTGGCGGTCAACCTGGACG	CGG	-||||-||[-||-||||||||]PAM	NA	Intergenic	NA	NA
+scaffold_13	648729	648751	-	4	CGTGGAGGACGCGCTGGACG	CGG	--||||||[||-|-|||||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	2488419	2488441	-	4	TGTTGATGACACCCTTGACG	AGG	|-|-||-|[|||||||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_5	1403301	1403323	+	4	GCGGGAGAACACCCTCGACG	CGG	-|-||||-[|||||||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_2	3118464	3118486	-	4	CCTCGAGGGCACCCTGAACG	GGG	-||-||||[-|||||||-|||]PAM	NA	Intergenic	NA	NA
+scaffold_10	1735693	1735715	+	4	TGTGGATGACGCCCTCGACG	AGG	|-||||-|[||-||||-||||]PAM	NA	Intergenic	NA	NA
+scaffold_6	479549	479571	-	4	TCAGGACGACACCCTTGCCG	CGG	||-|||-|[|||||||-|-||]PAM	NA	Intergenic	NA	NA
+

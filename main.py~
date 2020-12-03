@@ -1,0 +1,85 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri May  3 10:53:04 2019
+
+@author: pjvonk
+"""
+#this program requires the following things:
+#biopython installed
+#bowtie and bowtie_build in PATH (NOTE: this is bowtie, not bowtie2)
+
+import os
+from Bio import SeqIO
+from Bio.Seq import Seq
+from Bio.SeqRecord import SeqRecord
+from Bio.Alphabet import IUPAC
+from Bio.SeqFeature import SeqFeature, FeatureLocation
+import argparse
+import glob
+import shutil
+
+#Define variables
+input_file = "./data/raw/input_sequences.fasta"
+genome_assembly = "./data/raw/Schco3.assembly.fasta"
+database = "Schco3"
+
+
+# Confirm that bowtie is in the PATH. If it is, then extract the directory of the executable. This is needed by CCTOP. NOTE: this is bowtie, not bowtie2!
+bowtie_path = shutil.which("bowtie")
+if not bowtie_path:
+    raise Exception("the executable 'bowtie' is not in your PATH variable")
+bowtie_location = os.path.dirname(bowtie_path)
+
+#run bowtie
+os.system("bowtie-build %s ./data/temp/" % genome_assembly)
+
+#run cctop
+cctop_command = "python ./bin/cctop_standalone/CCTop.py --input %s --index ./data/temp/%s --bowtie %s --pam NGG --sgRNA5 NN --totalMM 4 --output ./data/temp/" % (input_file, database, bowtie_location)
+os.system(cctop_command)
+
+#parse results and output the required files
+result_file = open('./data/processed/result.txt', 'w')
+
+result_file.write('ID\tproteinId\tSide\tScore\toff_targets\tgRNA\tfw_primer\trv_primer\n')
+i = 1
+
+
+gene_underscore = gene.split('|')[1]
+left_result = open('run_files/%s_left.xls' % gene_underscore, 'r')
+right_result = open('run_files/%s_right.xls' % gene_underscore, 'r')
+for line in left_result.readlines()[9:]:
+    if line.split('\t')[0] == 'T' + str(i):
+        off_target_count = -1
+        gRNA = line.split('\t')[1][0:20]
+        seq_gRNA = Seq(gRNA)
+        rc_gRNA = str(seq_gRNA.reverse_complement())
+        score = line.split('\t')[4]
+        fw_primer = 'TAATACGACTCACTATAG' + gRNA
+        rv_primer = 'TTCTAGCTCTAAAAC' + rc_gRNA
+        i+=1
+    if line.split('\t')[0].split('_')[0] == 'scaffold':
+        off_target_count += 1
+    if line == '\n':
+        result_file.write('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' % ('T'+str(i-1), gene, 'left', score.split(' ')[0], str(off_target_count), gRNA, fw_primer, rv_primer))
+result_file.write('\n')
+result_file.write('ID\tproteinId\tSide\tScore\toff_targets\tgRNA\tfw_primer\trv_primer\n')
+i = 1
+for line in right_result.readlines()[9:]:
+    if line.split('\t')[0] == 'T' + str(i):
+        off_target_count = -1
+        gRNA = line.split('\t')[1][0:20]
+        seq_gRNA = Seq(gRNA)
+        rc_gRNA = str(seq_gRNA.reverse_complement())
+        score = line.split('\t')[4]
+        fw_primer = 'TAATACGACTCACTATAG' + gRNA
+        rv_primer = 'TTCTAGCTCTAAAAC' + rc_gRNA
+        i+=1
+    if line.split('\t')[0].split('_')[0] == 'scaffold':
+        off_target_count += 1
+    if line == '\n':
+        result_file.write('%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' % ('T'+str(i-1), gene, 'right', score.split(' ')[0], str(off_target_count), gRNA, fw_primer, rv_primer))
+result_file.write('\n')
+left_result.close()
+right_result.close()
+result_file.close()

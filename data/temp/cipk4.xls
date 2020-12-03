@@ -1,0 +1,2195 @@
+Input:	ACCACGGCCACAATCTACCTACGCGCCCACCAGCTAACTCGCCATGTCCGCCTTTCCGACCCCGCAGAAGAGCGACCCCAAGATGATCGGTCTCTGGAAGATTGGGCGCACTATCGGCAAGGGATCTTGCGGTACGTCCCCGATCCCATCTCGCCCAGAGCGTCCTTGCTTATGGCTTCTCGCAGGGCGTGTGCGCATCGCTAGACATTCGAAAACAGGGCAATATGCCGCTATCAAGATTATCTCTAAAACTATCGACCCCAACAGCAGCATCGCCGACACGGCCGAGCGCTACAAGCTATCCATTGAACGCGAGGTCGTCATCATGAAGCTGACCGACCACCCCAACATTCTGCGCCTCTACGACGTCTGGGAGACGTCCACTGAACTATACCTCATTCTGGAGTACGTCCAAGGCGGCGAGCTCTTCGATCACATCGTCAGCAAAGGTCGACTCGCTGCGGACGAAGGCGCGCGCTATTTCCAGCAGGTCATCAGCGCAGTCGAGTACTTCCACCGCTTCGACATCGCTCATCGAGATCTCAAGCCCGAGAACATATTGCTCGACCAGGACGGCAACATCAAGATCGCTGACTTCGGCATGGCTACGCTCCAGGCTGTCGACAGCCTCCTCACCAGCGCCTGTGGGAGTCCGCACTACGCTGCTCCCGAGCTCCTCGTCGAGAACGTCGTGTACGATGGAGCTGCCGCAGACGTCTGGTCCTGCGGTGTCATTCTCTACGCAATGATTGTCGGCACTCTCCCCTTCGACTCTTCCGACTTGCGAACTCTCTTCGAGCTGATCAACGACTGCAACTACGTTCTGCCTCCCGACATCGACCCCTTTGCGCAGGACCTGATTTGCAAGATGCTCGTCAAGGACGTTCGCAAGCGTATCACCATCCCTGCGATCAAGAAACACCCGTTCTTCTTGTCGCTACCTTTCAAGGAAACCCCGGAACCTACCTTCGGCACCTCTGCTCTCGAGCCTATTCTTGGCGCCGACATCAAGGAGCCTGAGCTGTTCGCCAACCTGCGCACACTCTGGCACGGACTTCCTGACGCGGATCTACTCGCGAACCTTGAGTGCGCTAAGAAGACACAAGAGAAGACCATCTTCCGGCTCCTCCTTGCTCATCGCCAGAAGGTCCTCGATCAGTATGTGCAAGAAGAGCAAGAAGCGGTCGCGCGAAGACATCAGCAGCAGAGACGAAAGCAGAGGCGGCGGGAGAAGGTCGACAGAGCTGCGGCGCCTCGGAACGACGCTCCTACGCCGAAGCGCGGCGCACGGCACCGCGTGTACCCGAGCGAAGATTCAGCAACTCCTCGCAAGGCTGGCGCCCCGCGCATTGTCTGCTCGTCGCCGTCGCCCCAAGGCAACGTGTCGCAGGTGTGGGATATGCTGGACGACTTGCCTCCGGCTGATGTCTTCACTGCCTCGTCTGGCGACGGCGACTACGACGACGTCTTCCATGCCATCTCCGAGATGGAACCGCTTCATACGGGTGGCACCGCGCCGCTCACGATCAGCCGCAAGCAGAACGTGAACATGGACGCTTTCTGGGGCACGGACAAGGAGAACGCCACGCCTACGGTAACGCCGAAAGCTCCCAAATCCCGCCGCGTCTTCGGCGACCTCAGGGTGCAGACGAACCTGGGCAAGAAGAGCTCGTCCAAGCCCAAATCGAAGAAGCGCCGCGATGAGAACATCGCCACGCCCACCTCGTTCTTCCTTGAGCCGCCCTCGCCCAGTTCGCCGCTAGGCGCGTCTCCGAAGCACAGCTGGCTCCCCGCGCTCTTCCGCATGCGCACGCCGCCGCAGACGCTGCTCTCCACGCATGGCGCCGCGACCGCGCGCTCCGAGGCGCGGCGCCTGCTCATGCGCATGGGCGCGCACGTCGCGCTCGAGGACGTCGCGGGTCCGGGCATCCTGCGCTGCCGGCTCGACGACACGCGGGACGCGGCGGGGGTGATGGGCGCGCTGAAGGCGGTGCGCTTCCGGGTGGAGGTGCGCATGCTGGGTCGGGAGGAGGAGGACTTCCGGGTGGCGTTGCTGGTGGTGCACGAGAAGGGGTCGGCGGAGAGCTTTAGGACGATGTGGAAGAGGTTGCGGCAGGAGTGGACGTTGGATGTGGTGGGGGCGGGGACGCCGTGTGAGGTGGCGCCTATTCCGCCGCCGAAGGATAGACGCGTGTTGGGAATGGCCCTTTAGACATCTTGACTGCACCCGTTTACACAGATGTATATTCATGCGCATAGAAATATCTCCTGGGATACTTTGGCCGCAAGAGAACTGCCTTTCACGCG
+PAM:	NGG
+Target site length:	20
+Target site 5' limitation:	NN
+Target site 3' limitation:	NN
+Core length:	12
+Core MM:	2
+Total MM:	4
+
+T1	AAGAGCGACCCCAAGATGATCGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggAAGAGCGACCCCAAGATGAT
+Oligo adding rev	AAACATCATCTTGGGGTCGCTCTT
+Oligo substituting fwd	TAggGAGCGACCCCAAGATGAT
+Oligo substituting rev	AAACATCATCTTGGGGTCGCTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T2	ACCCCAAGATGATCGGTCTCTGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggACCCCAAGATGATCGGTCTC
+Oligo adding rev	AAACGAGACCGATCATCTTGGGGT
+Oligo substituting fwd	TAggCCCAAGATGATCGGTCTC
+Oligo substituting rev	AAACGAGACCGATCATCTTGGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T3	ATGATCGGTCTCTGGAAGATTGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggATGATCGGTCTCTGGAAGAT
+Oligo adding rev	AAACATCTTCCAGAGACCGATCAT
+Oligo substituting fwd	TAggGATCGGTCTCTGGAAGAT
+Oligo substituting rev	AAACATCTTCCAGAGACCGATC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T4	TGATCGGTCTCTGGAAGATTGGG	1000	CRISPRater score	0.48 (LOW)
+Oligo adding fwd	TAggTGATCGGTCTCTGGAAGATT
+Oligo adding rev	AAACAATCTTCCAGAGACCGATCA
+Oligo substituting fwd	TAggATCGGTCTCTGGAAGATT
+Oligo substituting rev	AAACAATCTTCCAGAGACCGAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T5	TGGAAGATTGGGCGCACTATCGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggTGGAAGATTGGGCGCACTAT
+Oligo adding rev	AAACATAGTGCGCCCAATCTTCCA
+Oligo substituting fwd	TAggGAAGATTGGGCGCACTAT
+Oligo substituting rev	AAACATAGTGCGCCCAATCTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T6	GATTGGGCGCACTATCGGCAAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAgGATTGGGCGCACTATCGGCA
+Oligo adding rev	AAACTGCCGATAGTGCGCCCAAT
+Oligo substituting fwd	TAGgTTGGGCGCACTATCGGCA
+Oligo substituting rev	AAACTGCCGATAGTGCGCCCAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T7	ATTGGGCGCACTATCGGCAAGGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAggATTGGGCGCACTATCGGCAA
+Oligo adding rev	AAACTTGCCGATAGTGCGCCCAAT
+Oligo substituting fwd	TAggTGGGCGCACTATCGGCAA
+Oligo substituting rev	AAACTTGCCGATAGTGCGCCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T8	ACTATCGGCAAGGGATCTTGCGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggACTATCGGCAAGGGATCTTG
+Oligo adding rev	AAACCAAGATCCCTTGCCGATAGT
+Oligo substituting fwd	TAggTATCGGCAAGGGATCTTG
+Oligo substituting rev	AAACCAAGATCCCTTGCCGATA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T9	GCCCAGAGCGTCCTTGCTTATGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAgGCCCAGAGCGTCCTTGCTTA
+Oligo adding rev	AAACTAAGCAAGGACGCTCTGGG
+Oligo substituting fwd	TAGgCCAGAGCGTCCTTGCTTA
+Oligo substituting rev	AAACTAAGCAAGGACGCTCTGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T10	CCTTGCTTATGGCTTCTCGCAGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCCTTGCTTATGGCTTCTCGC
+Oligo adding rev	AAACGCGAGAAGCCATAAGCAAGG
+Oligo substituting fwd	TAggTTGCTTATGGCTTCTCGC
+Oligo substituting rev	AAACGCGAGAAGCCATAAGCAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T11	CTTGCTTATGGCTTCTCGCAGGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggCTTGCTTATGGCTTCTCGCA
+Oligo adding rev	AAACTGCGAGAAGCCATAAGCAAG
+Oligo substituting fwd	TAggTGCTTATGGCTTCTCGCA
+Oligo substituting rev	AAACTGCGAGAAGCCATAAGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T12	ATCGCTAGACATTCGAAAACAGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggATCGCTAGACATTCGAAAAC
+Oligo adding rev	AAACGTTTTCGAATGTCTAGCGAT
+Oligo substituting fwd	TAggCGCTAGACATTCGAAAAC
+Oligo substituting rev	AAACGTTTTCGAATGTCTAGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T13	TCGCTAGACATTCGAAAACAGGG	1000	CRISPRater score	0.51 (LOW)
+Oligo adding fwd	TAggTCGCTAGACATTCGAAAACA
+Oligo adding rev	AAACTGTTTTCGAATGTCTAGCGA
+Oligo substituting fwd	TAggGCTAGACATTCGAAAACA
+Oligo substituting rev	AAACTGTTTTCGAATGTCTAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T14	CAACAGCAGCATCGCCGACACGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggCAACAGCAGCATCGCCGACA
+Oligo adding rev	AAACTGTCGGCGATGCTGCTGTTG
+Oligo substituting fwd	TAggACAGCAGCATCGCCGACA
+Oligo substituting rev	AAACTGTCGGCGATGCTGCTGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T15	CAAGCTATCCATTGAACGCGAGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggCAAGCTATCCATTGAACGCG
+Oligo adding rev	AAACCGCGTTCAATGGATAGCTTG
+Oligo substituting fwd	TAggAGCTATCCATTGAACGCG
+Oligo substituting rev	AAACCGCGTTCAATGGATAGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T16	TTCTGCGCCTCTACGACGTCTGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggTTCTGCGCCTCTACGACGTC
+Oligo adding rev	AAACGACGTCGTAGAGGCGCAGAA
+Oligo substituting fwd	TAggCTGCGCCTCTACGACGTC
+Oligo substituting rev	AAACGACGTCGTAGAGGCGCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T17	TCTGCGCCTCTACGACGTCTGGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTCTGCGCCTCTACGACGTCT
+Oligo adding rev	AAACAGACGTCGTAGAGGCGCAGA
+Oligo substituting fwd	TAggTGCGCCTCTACGACGTCT
+Oligo substituting rev	AAACAGACGTCGTAGAGGCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T18	CACTGAACTATACCTCATTCTGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggCACTGAACTATACCTCATTC
+Oligo adding rev	AAACGAATGAGGTATAGTTCAGTG
+Oligo substituting fwd	TAggCTGAACTATACCTCATTC
+Oligo substituting rev	AAACGAATGAGGTATAGTTCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T19	CTCATTCTGGAGTACGTCCAAGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggCTCATTCTGGAGTACGTCCA
+Oligo adding rev	AAACTGGACGTACTCCAGAATGAG
+Oligo substituting fwd	TAggCATTCTGGAGTACGTCCA
+Oligo substituting rev	AAACTGGACGTACTCCAGAATG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T20	ATTCTGGAGTACGTCCAAGGCGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAggATTCTGGAGTACGTCCAAGG
+Oligo adding rev	AAACCCTTGGACGTACTCCAGAAT
+Oligo substituting fwd	TAggTCTGGAGTACGTCCAAGG
+Oligo substituting rev	AAACCCTTGGACGTACTCCAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T21	TTCGATCACATCGTCAGCAAAGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggTTCGATCACATCGTCAGCAA
+Oligo adding rev	AAACTTGCTGACGATGTGATCGAA
+Oligo substituting fwd	TAggCGATCACATCGTCAGCAA
+Oligo substituting rev	AAACTTGCTGACGATGTGATCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T22	CAGCAAAGGTCGACTCGCTGCGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCAGCAAAGGTCGACTCGCTG
+Oligo adding rev	AAACCAGCGAGTCGACCTTTGCTG
+Oligo substituting fwd	TAggGCAAAGGTCGACTCGCTG
+Oligo substituting rev	AAACCAGCGAGTCGACCTTTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T23	GGTCGACTCGCTGCGGACGAAGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo fwd	TAGGTCGACTCGCTGCGGACGA
+Oligo rev	AAACTCGTCCGCAGCGAGTCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T24	AGGCGCGCGCTATTTCCAGCAGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggAGGCGCGCGCTATTTCCAGC
+Oligo adding rev	AAACGCTGGAAATAGCGCGCGCCT
+Oligo substituting fwd	TAggGCGCGCGCTATTTCCAGC
+Oligo substituting rev	AAACGCTGGAAATAGCGCGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T25	CGAGAACATATTGCTCGACCAGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggCGAGAACATATTGCTCGACC
+Oligo adding rev	AAACGGTCGAGCAATATGTTCTCG
+Oligo substituting fwd	TAggAGAACATATTGCTCGACC
+Oligo substituting rev	AAACGGTCGAGCAATATGTTCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T26	AACATATTGCTCGACCAGGACGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggAACATATTGCTCGACCAGGA
+Oligo adding rev	AAACTCCTGGTCGAGCAATATGTT
+Oligo substituting fwd	TAggCATATTGCTCGACCAGGA
+Oligo substituting rev	AAACTCCTGGTCGAGCAATATG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T27	AACATCAAGATCGCTGACTTCGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggAACATCAAGATCGCTGACTT
+Oligo adding rev	AAACAAGTCAGCGATCTTGATGTT
+Oligo substituting fwd	TAggCATCAAGATCGCTGACTT
+Oligo substituting rev	AAACAAGTCAGCGATCTTGATG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T28	CAAGATCGCTGACTTCGGCATGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggCAAGATCGCTGACTTCGGCA
+Oligo adding rev	AAACTGCCGAAGTCAGCGATCTTG
+Oligo substituting fwd	TAggAGATCGCTGACTTCGGCA
+Oligo substituting rev	AAACTGCCGAAGTCAGCGATCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T29	CTTCGGCATGGCTACGCTCCAGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAggCTTCGGCATGGCTACGCTCC
+Oligo adding rev	AAACGGAGCGTAGCCATGCCGAAG
+Oligo substituting fwd	TAggTCGGCATGGCTACGCTCC
+Oligo substituting rev	AAACGGAGCGTAGCCATGCCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T30	AGCCTCCTCACCAGCGCCTGTGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggAGCCTCCTCACCAGCGCCTG
+Oligo adding rev	AAACCAGGCGCTGGTGAGGAGGCT
+Oligo substituting fwd	TAggCCTCCTCACCAGCGCCTG
+Oligo substituting rev	AAACCAGGCGCTGGTGAGGAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T31	GCCTCCTCACCAGCGCCTGTGGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAgGCCTCCTCACCAGCGCCTGT
+Oligo adding rev	AAACACAGGCGCTGGTGAGGAGG
+Oligo substituting fwd	TAGgCTCCTCACCAGCGCCTGT
+Oligo substituting rev	AAACACAGGCGCTGGTGAGGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T32	GTCGAGAACGTCGTGTACGATGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGTCGAGAACGTCGTGTACGA
+Oligo adding rev	AAACTCGTACACGACGTTCTCGA
+Oligo substituting fwd	TAGgCGAGAACGTCGTGTACGA
+Oligo substituting rev	AAACTCGTACACGACGTTCTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T33	ATGGAGCTGCCGCAGACGTCTGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggATGGAGCTGCCGCAGACGTC
+Oligo adding rev	AAACGACGTCTGCGGCAGCTCCAT
+Oligo substituting fwd	TAggGGAGCTGCCGCAGACGTC
+Oligo substituting rev	AAACGACGTCTGCGGCAGCTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T34	GCCGCAGACGTCTGGTCCTGCGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAgGCCGCAGACGTCTGGTCCTG
+Oligo adding rev	AAACCAGGACCAGACGTCTGCGG
+Oligo substituting fwd	TAGgCGCAGACGTCTGGTCCTG
+Oligo substituting rev	AAACCAGGACCAGACGTCTGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T35	ATTCTCTACGCAATGATTGTCGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAggATTCTCTACGCAATGATTGT
+Oligo adding rev	AAACACAATCATTGCGTAGAGAAT
+Oligo substituting fwd	TAggTCTCTACGCAATGATTGT
+Oligo substituting rev	AAACACAATCATTGCGTAGAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T36	CGACATCGACCCCTTTGCGCAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggCGACATCGACCCCTTTGCGC
+Oligo adding rev	AAACGCGCAAAGGGGTCGATGTCG
+Oligo substituting fwd	TAggACATCGACCCCTTTGCGC
+Oligo substituting rev	AAACGCGCAAAGGGGTCGATGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T37	GATTTGCAAGATGCTCGTCAAGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAgGATTTGCAAGATGCTCGTCA
+Oligo adding rev	AAACTGACGAGCATCTTGCAAAT
+Oligo substituting fwd	TAGgTTTGCAAGATGCTCGTCA
+Oligo substituting rev	AAACTGACGAGCATCTTGCAAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T38	CTTCTTGTCGCTACCTTTCAAGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggCTTCTTGTCGCTACCTTTCA
+Oligo adding rev	AAACTGAAAGGTAGCGACAAGAAG
+Oligo substituting fwd	TAggTCTTGTCGCTACCTTTCA
+Oligo substituting rev	AAACTGAAAGGTAGCGACAAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T39	GCTACCTTTCAAGGAAACCCCGG	1000	CRISPRater score	0.51 (LOW)
+Oligo adding fwd	TAgGCTACCTTTCAAGGAAACCC
+Oligo adding rev	AAACGGGTTTCCTTGAAAGGTAG
+Oligo substituting fwd	TAGgTACCTTTCAAGGAAACCC
+Oligo substituting rev	AAACGGGTTTCCTTGAAAGGTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T40	GAAACCCCGGAACCTACCTTCGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAgGAAACCCCGGAACCTACCTT
+Oligo adding rev	AAACAAGGTAGGTTCCGGGGTTT
+Oligo substituting fwd	TAGgAACCCCGGAACCTACCTT
+Oligo substituting rev	AAACAAGGTAGGTTCCGGGGTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T41	TCTGCTCTCGAGCCTATTCTTGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTCTGCTCTCGAGCCTATTCT
+Oligo adding rev	AAACAGAATAGGCTCGAGAGCAGA
+Oligo substituting fwd	TAggTGCTCTCGAGCCTATTCT
+Oligo substituting rev	AAACAGAATAGGCTCGAGAGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T42	TATTCTTGGCGCCGACATCAAGG	1000	CRISPRater score	0.52 (LOW)
+Oligo adding fwd	TAggTATTCTTGGCGCCGACATCA
+Oligo adding rev	AAACTGATGTCGGCGCCAAGAATA
+Oligo substituting fwd	TAggTTCTTGGCGCCGACATCA
+Oligo substituting rev	AAACTGATGTCGGCGCCAAGAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T43	TCGCCAACCTGCGCACACTCTGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAggTCGCCAACCTGCGCACACTC
+Oligo adding rev	AAACGAGTGTGCGCAGGTTGGCGA
+Oligo substituting fwd	TAggGCCAACCTGCGCACACTC
+Oligo substituting rev	AAACGAGTGTGCGCAGGTTGGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T44	AACCTGCGCACACTCTGGCACGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggAACCTGCGCACACTCTGGCA
+Oligo adding rev	AAACTGCCAGAGTGTGCGCAGGTT
+Oligo substituting fwd	TAggCCTGCGCACACTCTGGCA
+Oligo substituting rev	AAACTGCCAGAGTGTGCGCAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T45	CTGGCACGGACTTCCTGACGCGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggCTGGCACGGACTTCCTGACG
+Oligo adding rev	AAACCGTCAGGAAGTCCGTGCCAG
+Oligo substituting fwd	TAggGGCACGGACTTCCTGACG
+Oligo substituting rev	AAACCGTCAGGAAGTCCGTGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T46	CACAAGAGAAGACCATCTTCCGG	1000	CRISPRater score	0.56 (MEDIUM)
+Oligo adding fwd	TAggCACAAGAGAAGACCATCTTC
+Oligo adding rev	AAACGAAGATGGTCTTCTCTTGTG
+Oligo substituting fwd	TAggCAAGAGAAGACCATCTTC
+Oligo substituting rev	AAACGAAGATGGTCTTCTCTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T47	CCTCCTTGCTCATCGCCAGAAGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggCCTCCTTGCTCATCGCCAGA
+Oligo adding rev	AAACTCTGGCGATGAGCAAGGAGG
+Oligo substituting fwd	TAggTCCTTGCTCATCGCCAGA
+Oligo substituting rev	AAACTCTGGCGATGAGCAAGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T48	TGTGCAAGAAGAGCAAGAAGCGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggTGTGCAAGAAGAGCAAGAAG
+Oligo adding rev	AAACCTTCTTGCTCTTCTTGCACA
+Oligo substituting fwd	TAggTGCAAGAAGAGCAAGAAG
+Oligo substituting rev	AAACCTTCTTGCTCTTCTTGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T49	AGCAGCAGAGACGAAAGCAGAGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggAGCAGCAGAGACGAAAGCAG
+Oligo adding rev	AAACCTGCTTTCGTCTCTGCTGCT
+Oligo substituting fwd	TAggCAGCAGAGACGAAAGCAG
+Oligo substituting rev	AAACCTGCTTTCGTCTCTGCTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T50	AGCAGAGACGAAAGCAGAGGCGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggAGCAGAGACGAAAGCAGAGG
+Oligo adding rev	AAACCCTCTGCTTTCGTCTCTGCT
+Oligo substituting fwd	TAggCAGAGACGAAAGCAGAGG
+Oligo substituting rev	AAACCCTCTGCTTTCGTCTCTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T51	AGAGACGAAAGCAGAGGCGGCGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggAGAGACGAAAGCAGAGGCGG
+Oligo adding rev	AAACCCGCCTCTGCTTTCGTCTCT
+Oligo substituting fwd	TAggAGACGAAAGCAGAGGCGG
+Oligo substituting rev	AAACCCGCCTCTGCTTTCGTCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T52	GAGACGAAAGCAGAGGCGGCGGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAgGAGACGAAAGCAGAGGCGGC
+Oligo adding rev	AAACGCCGCCTCTGCTTTCGTCT
+Oligo substituting fwd	TAGgGACGAAAGCAGAGGCGGC
+Oligo substituting rev	AAACGCCGCCTCTGCTTTCGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T53	AAAGCAGAGGCGGCGGGAGAAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggAAAGCAGAGGCGGCGGGAGA
+Oligo adding rev	AAACTCTCCCGCCGCCTCTGCTTT
+Oligo substituting fwd	TAggAGCAGAGGCGGCGGGAGA
+Oligo substituting rev	AAACTCTCCCGCCGCCTCTGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T54	GGAGAAGGTCGACAGAGCTGCGG	1000	CRISPRater score	0.81 (HIGH)
+Oligo fwd	TAGGAGAAGGTCGACAGAGCTG
+Oligo rev	AAACCAGCTCTGTCGACCTTCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T55	TCGACAGAGCTGCGGCGCCTCGG	1000	CRISPRater score	0.58 (MEDIUM)
+Oligo adding fwd	TAggTCGACAGAGCTGCGGCGCCT
+Oligo adding rev	AAACAGGCGCCGCAGCTCTGTCGA
+Oligo substituting fwd	TAggGACAGAGCTGCGGCGCCT
+Oligo substituting rev	AAACAGGCGCCGCAGCTCTGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T56	GACGCTCCTACGCCGAAGCGCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAgGACGCTCCTACGCCGAAGCG
+Oligo adding rev	AAACCGCTTCGGCGTAGGAGCGT
+Oligo substituting fwd	TAGgCGCTCCTACGCCGAAGCG
+Oligo substituting rev	AAACCGCTTCGGCGTAGGAGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T57	CTACGCCGAAGCGCGGCGCACGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggCTACGCCGAAGCGCGGCGCA
+Oligo adding rev	AAACTGCGCCGCGCTTCGGCGTAG
+Oligo substituting fwd	TAggACGCCGAAGCGCGGCGCA
+Oligo substituting rev	AAACTGCGCCGCGCTTCGGCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T58	AGATTCAGCAACTCCTCGCAAGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggAGATTCAGCAACTCCTCGCA
+Oligo adding rev	AAACTGCGAGGAGTTGCTGAATCT
+Oligo substituting fwd	TAggATTCAGCAACTCCTCGCA
+Oligo substituting rev	AAACTGCGAGGAGTTGCTGAAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T59	TCAGCAACTCCTCGCAAGGCTGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggTCAGCAACTCCTCGCAAGGC
+Oligo adding rev	AAACGCCTTGCGAGGAGTTGCTGA
+Oligo substituting fwd	TAggAGCAACTCCTCGCAAGGC
+Oligo substituting rev	AAACGCCTTGCGAGGAGTTGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T60	TGCTCGTCGCCGTCGCCCCAAGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggTGCTCGTCGCCGTCGCCCCA
+Oligo adding rev	AAACTGGGGCGACGGCGACGAGCA
+Oligo substituting fwd	TAggCTCGTCGCCGTCGCCCCA
+Oligo substituting rev	AAACTGGGGCGACGGCGACGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T61	GCCCCAAGGCAACGTGTCGCAGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAgGCCCCAAGGCAACGTGTCGC
+Oligo adding rev	AAACGCGACACGTTGCCTTGGGG
+Oligo substituting fwd	TAGgCCCAAGGCAACGTGTCGC
+Oligo substituting rev	AAACGCGACACGTTGCCTTGGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T62	AAGGCAACGTGTCGCAGGTGTGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggAAGGCAACGTGTCGCAGGTG
+Oligo adding rev	AAACCACCTGCGACACGTTGCCTT
+Oligo substituting fwd	TAggGGCAACGTGTCGCAGGTG
+Oligo substituting rev	AAACCACCTGCGACACGTTGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T63	AGGCAACGTGTCGCAGGTGTGGG	1000	CRISPRater score	0.58 (MEDIUM)
+Oligo adding fwd	TAggAGGCAACGTGTCGCAGGTGT
+Oligo adding rev	AAACACACCTGCGACACGTTGCCT
+Oligo substituting fwd	TAggGCAACGTGTCGCAGGTGT
+Oligo substituting rev	AAACACACCTGCGACACGTTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T64	GTCGCAGGTGTGGGATATGCTGG	1000	CRISPRater score	0.56 (MEDIUM)
+Oligo adding fwd	TAgGTCGCAGGTGTGGGATATGC
+Oligo adding rev	AAACGCATATCCCACACCTGCGA
+Oligo substituting fwd	TAGgCGCAGGTGTGGGATATGC
+Oligo substituting rev	AAACGCATATCCCACACCTGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T65	TATGCTGGACGACTTGCCTCCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTATGCTGGACGACTTGCCTC
+Oligo adding rev	AAACGAGGCAAGTCGTCCAGCATA
+Oligo substituting fwd	TAggTGCTGGACGACTTGCCTC
+Oligo substituting rev	AAACGAGGCAAGTCGTCCAGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T66	GATGTCTTCACTGCCTCGTCTGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAgGATGTCTTCACTGCCTCGTC
+Oligo adding rev	AAACGACGAGGCAGTGAAGACAT
+Oligo substituting fwd	TAGgTGTCTTCACTGCCTCGTC
+Oligo substituting rev	AAACGACGAGGCAGTGAAGACA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T67	TTCACTGCCTCGTCTGGCGACGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggTTCACTGCCTCGTCTGGCGA
+Oligo adding rev	AAACTCGCCAGACGAGGCAGTGAA
+Oligo substituting fwd	TAggCACTGCCTCGTCTGGCGA
+Oligo substituting rev	AAACTCGCCAGACGAGGCAGTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T68	CTTCCATGCCATCTCCGAGATGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggCTTCCATGCCATCTCCGAGA
+Oligo adding rev	AAACTCTCGGAGATGGCATGGAAG
+Oligo substituting fwd	TAggTCCATGCCATCTCCGAGA
+Oligo substituting rev	AAACTCTCGGAGATGGCATGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T69	CGAGATGGAACCGCTTCATACGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggCGAGATGGAACCGCTTCATA
+Oligo adding rev	AAACTATGAAGCGGTTCCATCTCG
+Oligo substituting fwd	TAggAGATGGAACCGCTTCATA
+Oligo substituting rev	AAACTATGAAGCGGTTCCATCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T70	GAGATGGAACCGCTTCATACGGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAgGAGATGGAACCGCTTCATAC
+Oligo adding rev	AAACGTATGAAGCGGTTCCATCT
+Oligo substituting fwd	TAGgGATGGAACCGCTTCATAC
+Oligo substituting rev	AAACGTATGAAGCGGTTCCATC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T71	ATGGAACCGCTTCATACGGGTGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggATGGAACCGCTTCATACGGG
+Oligo adding rev	AAACCCCGTATGAAGCGGTTCCAT
+Oligo substituting fwd	TAggGGAACCGCTTCATACGGG
+Oligo substituting rev	AAACCCCGTATGAAGCGGTTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T72	CCGCAAGCAGAACGTGAACATGG	1000	CRISPRater score	0.56 (MEDIUM)
+Oligo adding fwd	TAggCCGCAAGCAGAACGTGAACA
+Oligo adding rev	AAACTGTTCACGTTCTGCTTGCGG
+Oligo substituting fwd	TAggGCAAGCAGAACGTGAACA
+Oligo substituting rev	AAACTGTTCACGTTCTGCTTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T73	ACGTGAACATGGACGCTTTCTGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggACGTGAACATGGACGCTTTC
+Oligo adding rev	AAACGAAAGCGTCCATGTTCACGT
+Oligo substituting fwd	TAggGTGAACATGGACGCTTTC
+Oligo substituting rev	AAACGAAAGCGTCCATGTTCAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T74	CGTGAACATGGACGCTTTCTGGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggCGTGAACATGGACGCTTTCT
+Oligo adding rev	AAACAGAAAGCGTCCATGTTCACG
+Oligo substituting fwd	TAggTGAACATGGACGCTTTCT
+Oligo substituting rev	AAACAGAAAGCGTCCATGTTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T75	GTGAACATGGACGCTTTCTGGGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGTGAACATGGACGCTTTCTG
+Oligo adding rev	AAACCAGAAAGCGTCCATGTTCA
+Oligo substituting fwd	TAGgGAACATGGACGCTTTCTG
+Oligo substituting rev	AAACCAGAAAGCGTCCATGTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T76	CATGGACGCTTTCTGGGGCACGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggCATGGACGCTTTCTGGGGCA
+Oligo adding rev	AAACTGCCCCAGAAAGCGTCCATG
+Oligo substituting fwd	TAggTGGACGCTTTCTGGGGCA
+Oligo substituting rev	AAACTGCCCCAGAAAGCGTCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T77	CGCTTTCTGGGGCACGGACAAGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggCGCTTTCTGGGGCACGGACA
+Oligo adding rev	AAACTGTCCGTGCCCCAGAAAGCG
+Oligo substituting fwd	TAggCTTTCTGGGGCACGGACA
+Oligo substituting rev	AAACTGTCCGTGCCCCAGAAAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T78	CAAGGAGAACGCCACGCCTACGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggCAAGGAGAACGCCACGCCTA
+Oligo adding rev	AAACTAGGCGTGGCGTTCTCCTTG
+Oligo substituting fwd	TAggAGGAGAACGCCACGCCTA
+Oligo substituting rev	AAACTAGGCGTGGCGTTCTCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T79	CCCAAATCCCGCCGCGTCTTCGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggCCCAAATCCCGCCGCGTCTT
+Oligo adding rev	AAACAAGACGCGGCGGGATTTGGG
+Oligo substituting fwd	TAggCAAATCCCGCCGCGTCTT
+Oligo substituting rev	AAACAAGACGCGGCGGGATTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T80	GCCGCGTCTTCGGCGACCTCAGG	1000	CRISPRater score	0.74 (MEDIUM)
+Oligo adding fwd	TAgGCCGCGTCTTCGGCGACCTC
+Oligo adding rev	AAACGAGGTCGCCGAAGACGCGG
+Oligo substituting fwd	TAGgCGCGTCTTCGGCGACCTC
+Oligo substituting rev	AAACGAGGTCGCCGAAGACGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T81	CCGCGTCTTCGGCGACCTCAGGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggCCGCGTCTTCGGCGACCTCA
+Oligo adding rev	AAACTGAGGTCGCCGAAGACGCGG
+Oligo substituting fwd	TAggGCGTCTTCGGCGACCTCA
+Oligo substituting rev	AAACTGAGGTCGCCGAAGACGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T82	CCTCAGGGTGCAGACGAACCTGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggCCTCAGGGTGCAGACGAACC
+Oligo adding rev	AAACGGTTCGTCTGCACCCTGAGG
+Oligo substituting fwd	TAggTCAGGGTGCAGACGAACC
+Oligo substituting rev	AAACGGTTCGTCTGCACCCTGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T83	CTCAGGGTGCAGACGAACCTGGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAggCTCAGGGTGCAGACGAACCT
+Oligo adding rev	AAACAGGTTCGTCTGCACCCTGAG
+Oligo substituting fwd	TAggCAGGGTGCAGACGAACCT
+Oligo substituting rev	AAACAGGTTCGTCTGCACCCTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T84	CCCTCGCCCAGTTCGCCGCTAGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggCCCTCGCCCAGTTCGCCGCT
+Oligo adding rev	AAACAGCGGCGAACTGGGCGAGGG
+Oligo substituting fwd	TAggCTCGCCCAGTTCGCCGCT
+Oligo substituting rev	AAACAGCGGCGAACTGGGCGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T85	GCGCGTCTCCGAAGCACAGCTGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAgGCGCGTCTCCGAAGCACAGC
+Oligo adding rev	AAACGCTGTGCTTCGGAGACGCG
+Oligo substituting fwd	TAGgGCGTCTCCGAAGCACAGC
+Oligo substituting rev	AAACGCTGTGCTTCGGAGACGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T86	CAGACGCTGCTCTCCACGCATGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggCAGACGCTGCTCTCCACGCA
+Oligo adding rev	AAACTGCGTGGAGAGCAGCGTCTG
+Oligo substituting fwd	TAggGACGCTGCTCTCCACGCA
+Oligo substituting rev	AAACTGCGTGGAGAGCAGCGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T87	CGCCGCGACCGCGCGCTCCGAGG	1000	CRISPRater score	0.85 (HIGH)
+Oligo adding fwd	TAggCGCCGCGACCGCGCGCTCCG
+Oligo adding rev	AAACCGGAGCGCGCGGTCGCGGCG
+Oligo substituting fwd	TAggCCGCGACCGCGCGCTCCG
+Oligo substituting rev	AAACCGGAGCGCGCGGTCGCGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T88	CGACCGCGCGCTCCGAGGCGCGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggCGACCGCGCGCTCCGAGGCG
+Oligo adding rev	AAACCGCCTCGGAGCGCGCGGTCG
+Oligo substituting fwd	TAggACCGCGCGCTCCGAGGCG
+Oligo substituting rev	AAACCGCCTCGGAGCGCGCGGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T89	GCGGCGCCTGCTCATGCGCATGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGCGGCGCCTGCTCATGCGCA
+Oligo adding rev	AAACTGCGCATGAGCAGGCGCCG
+Oligo substituting fwd	TAGgGGCGCCTGCTCATGCGCA
+Oligo substituting rev	AAACTGCGCATGAGCAGGCGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T90	CGGCGCCTGCTCATGCGCATGGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCGGCGCCTGCTCATGCGCAT
+Oligo adding rev	AAACATGCGCATGAGCAGGCGCCG
+Oligo substituting fwd	TAggGCGCCTGCTCATGCGCAT
+Oligo substituting rev	AAACATGCGCATGAGCAGGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T91	GGGCGCGCACGTCGCGCTCGAGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo fwd	TAGGGCGCGCACGTCGCGCTCG
+Oligo rev	AAACCGAGCGCGACGTGCGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T92	CGTCGCGCTCGAGGACGTCGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggCGTCGCGCTCGAGGACGTCG
+Oligo adding rev	AAACCGACGTCCTCGAGCGCGACG
+Oligo substituting fwd	TAggTCGCGCTCGAGGACGTCG
+Oligo substituting rev	AAACCGACGTCCTCGAGCGCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T93	GTCGCGCTCGAGGACGTCGCGGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAgGTCGCGCTCGAGGACGTCGC
+Oligo adding rev	AAACGCGACGTCCTCGAGCGCGA
+Oligo substituting fwd	TAGgCGCGCTCGAGGACGTCGC
+Oligo substituting rev	AAACGCGACGTCCTCGAGCGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T94	GCTCGAGGACGTCGCGGGTCCGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGCTCGAGGACGTCGCGGGTC
+Oligo adding rev	AAACGACCCGCGACGTCCTCGAG
+Oligo substituting fwd	TAGgTCGAGGACGTCGCGGGTC
+Oligo substituting rev	AAACGACCCGCGACGTCCTCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T95	CTCGAGGACGTCGCGGGTCCGGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggCTCGAGGACGTCGCGGGTCC
+Oligo adding rev	AAACGGACCCGCGACGTCCTCGAG
+Oligo substituting fwd	TAggCGAGGACGTCGCGGGTCC
+Oligo substituting rev	AAACGGACCCGCGACGTCCTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T96	GTCCGGGCATCCTGCGCTGCCGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAgGTCCGGGCATCCTGCGCTGC
+Oligo adding rev	AAACGCAGCGCAGGATGCCCGGA
+Oligo substituting fwd	TAGgCCGGGCATCCTGCGCTGC
+Oligo substituting rev	AAACGCAGCGCAGGATGCCCGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T97	GCTGCCGGCTCGACGACACGCGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAgGCTGCCGGCTCGACGACACG
+Oligo adding rev	AAACCGTGTCGTCGAGCCGGCAG
+Oligo substituting fwd	TAGgTGCCGGCTCGACGACACG
+Oligo substituting rev	AAACCGTGTCGTCGAGCCGGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T98	CTGCCGGCTCGACGACACGCGGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAggCTGCCGGCTCGACGACACGC
+Oligo adding rev	AAACGCGTGTCGTCGAGCCGGCAG
+Oligo substituting fwd	TAggGCCGGCTCGACGACACGC
+Oligo substituting rev	AAACGCGTGTCGTCGAGCCGGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T99	GCTCGACGACACGCGGGACGCGG	1000	CRISPRater score	0.81 (HIGH)
+Oligo adding fwd	TAgGCTCGACGACACGCGGGACG
+Oligo adding rev	AAACCGTCCCGCGTGTCGTCGAG
+Oligo substituting fwd	TAGgTCGACGACACGCGGGACG
+Oligo substituting rev	AAACCGTCCCGCGTGTCGTCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T100	CGACGACACGCGGGACGCGGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggCGACGACACGCGGGACGCGG
+Oligo adding rev	AAACCCGCGTCCCGCGTGTCGTCG
+Oligo substituting fwd	TAggACGACACGCGGGACGCGG
+Oligo substituting rev	AAACCCGCGTCCCGCGTGTCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T101	GACGACACGCGGGACGCGGCGGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAgGACGACACGCGGGACGCGGC
+Oligo adding rev	AAACGCCGCGTCCCGCGTGTCGT
+Oligo substituting fwd	TAGgCGACACGCGGGACGCGGC
+Oligo substituting rev	AAACGCCGCGTCCCGCGTGTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T102	ACGACACGCGGGACGCGGCGGGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggACGACACGCGGGACGCGGCG
+Oligo adding rev	AAACCGCCGCGTCCCGCGTGTCGT
+Oligo substituting fwd	TAggGACACGCGGGACGCGGCG
+Oligo substituting rev	AAACCGCCGCGTCCCGCGTGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T103	CGACACGCGGGACGCGGCGGGGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCGACACGCGGGACGCGGCGG
+Oligo adding rev	AAACCCGCCGCGTCCCGCGTGTCG
+Oligo substituting fwd	TAggACACGCGGGACGCGGCGG
+Oligo substituting rev	AAACCCGCCGCGTCCCGCGTGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T104	GCGGGACGCGGCGGGGGTGATGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAgGCGGGACGCGGCGGGGGTGA
+Oligo adding rev	AAACTCACCCCCGCCGCGTCCCG
+Oligo substituting fwd	TAGgGGGACGCGGCGGGGGTGA
+Oligo substituting rev	AAACTCACCCCCGCCGCGTCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T105	CGGGACGCGGCGGGGGTGATGGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggCGGGACGCGGCGGGGGTGAT
+Oligo adding rev	AAACATCACCCCCGCCGCGTCCCG
+Oligo substituting fwd	TAggGGACGCGGCGGGGGTGAT
+Oligo substituting rev	AAACATCACCCCCGCCGCGTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T106	GGGGGTGATGGGCGCGCTGAAGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo fwd	TAGGGGGTGATGGGCGCGCTGA
+Oligo rev	AAACTCAGCGCGCCCATCACCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T107	GGTGATGGGCGCGCTGAAGGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo fwd	TAGGTGATGGGCGCGCTGAAGG
+Oligo rev	AAACCCTTCAGCGCGCCCATCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T108	CGCTGAAGGCGGTGCGCTTCCGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggCGCTGAAGGCGGTGCGCTTC
+Oligo adding rev	AAACGAAGCGCACCGCCTTCAGCG
+Oligo substituting fwd	TAggCTGAAGGCGGTGCGCTTC
+Oligo substituting rev	AAACGAAGCGCACCGCCTTCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T109	GCTGAAGGCGGTGCGCTTCCGGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAgGCTGAAGGCGGTGCGCTTCC
+Oligo adding rev	AAACGGAAGCGCACCGCCTTCAG
+Oligo substituting fwd	TAGgTGAAGGCGGTGCGCTTCC
+Oligo substituting rev	AAACGGAAGCGCACCGCCTTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T110	GAAGGCGGTGCGCTTCCGGGTGG	1000	CRISPRater score	0.87 (HIGH)
+Oligo adding fwd	TAgGAAGGCGGTGCGCTTCCGGG
+Oligo adding rev	AAACCCCGGAAGCGCACCGCCTT
+Oligo substituting fwd	TAGgAGGCGGTGCGCTTCCGGG
+Oligo substituting rev	AAACCCCGGAAGCGCACCGCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T111	GGCGGTGCGCTTCCGGGTGGAGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo fwd	TAGGCGGTGCGCTTCCGGGTGG
+Oligo rev	AAACCCACCCGGAAGCGCACCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T112	CCGGGTGGAGGTGCGCATGCTGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCCGGGTGGAGGTGCGCATGC
+Oligo adding rev	AAACGCATGCGCACCTCCACCCGG
+Oligo substituting fwd	TAggGGGTGGAGGTGCGCATGC
+Oligo substituting rev	AAACGCATGCGCACCTCCACCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T113	CGGGTGGAGGTGCGCATGCTGGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggCGGGTGGAGGTGCGCATGCT
+Oligo adding rev	AAACAGCATGCGCACCTCCACCCG
+Oligo substituting fwd	TAggGGTGGAGGTGCGCATGCT
+Oligo substituting rev	AAACAGCATGCGCACCTCCACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T114	TGGAGGTGCGCATGCTGGGTCGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTGGAGGTGCGCATGCTGGGT
+Oligo adding rev	AAACACCCAGCATGCGCACCTCCA
+Oligo substituting fwd	TAggGAGGTGCGCATGCTGGGT
+Oligo substituting rev	AAACACCCAGCATGCGCACCTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T115	GGAGGTGCGCATGCTGGGTCGGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo fwd	TAGGAGGTGCGCATGCTGGGTC
+Oligo rev	AAACGACCCAGCATGCGCACCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T116	GGTGCGCATGCTGGGTCGGGAGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo fwd	TAGGTGCGCATGCTGGGTCGGG
+Oligo rev	AAACCCCGACCCAGCATGCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T117	GCGCATGCTGGGTCGGGAGGAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAgGCGCATGCTGGGTCGGGAGG
+Oligo adding rev	AAACCCTCCCGACCCAGCATGCG
+Oligo substituting fwd	TAGgGCATGCTGGGTCGGGAGG
+Oligo substituting rev	AAACCCTCCCGACCCAGCATGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T118	CATGCTGGGTCGGGAGGAGGAGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggCATGCTGGGTCGGGAGGAGG
+Oligo adding rev	AAACCCTCCTCCCGACCCAGCATG
+Oligo substituting fwd	TAggTGCTGGGTCGGGAGGAGG
+Oligo substituting rev	AAACCCTCCTCCCGACCCAGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T119	GTCGGGAGGAGGAGGACTTCCGG	1000	CRISPRater score	0.74 (MEDIUM)
+Oligo adding fwd	TAgGTCGGGAGGAGGAGGACTTC
+Oligo adding rev	AAACGAAGTCCTCCTCCTCCCGA
+Oligo substituting fwd	TAGgCGGGAGGAGGAGGACTTC
+Oligo substituting rev	AAACGAAGTCCTCCTCCTCCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T120	TCGGGAGGAGGAGGACTTCCGGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTCGGGAGGAGGAGGACTTCC
+Oligo adding rev	AAACGGAAGTCCTCCTCCTCCCGA
+Oligo substituting fwd	TAggGGGAGGAGGAGGACTTCC
+Oligo substituting rev	AAACGGAAGTCCTCCTCCTCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T121	GGAGGAGGAGGACTTCCGGGTGG	1000	CRISPRater score	0.85 (HIGH)
+Oligo fwd	TAGGAGGAGGAGGACTTCCGGG
+Oligo rev	AAACCCCGGAAGTCCTCCTCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T122	GGACTTCCGGGTGGCGTTGCTGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo fwd	TAGGACTTCCGGGTGGCGTTGC
+Oligo rev	AAACGCAACGCCACCCGGAAGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T123	CTTCCGGGTGGCGTTGCTGGTGG	1000	CRISPRater score	0.84 (HIGH)
+Oligo adding fwd	TAggCTTCCGGGTGGCGTTGCTGG
+Oligo adding rev	AAACCCAGCAACGCCACCCGGAAG
+Oligo substituting fwd	TAggTCCGGGTGGCGTTGCTGG
+Oligo substituting rev	AAACCCAGCAACGCCACCCGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T124	GTTGCTGGTGGTGCACGAGAAGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAgGTTGCTGGTGGTGCACGAGA
+Oligo adding rev	AAACTCTCGTGCACCACCAGCAA
+Oligo substituting fwd	TAGgTGCTGGTGGTGCACGAGA
+Oligo substituting rev	AAACTCTCGTGCACCACCAGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T125	TTGCTGGTGGTGCACGAGAAGGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTTGCTGGTGGTGCACGAGAA
+Oligo adding rev	AAACTTCTCGTGCACCACCAGCAA
+Oligo substituting fwd	TAggGCTGGTGGTGCACGAGAA
+Oligo substituting rev	AAACTTCTCGTGCACCACCAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T126	TGCTGGTGGTGCACGAGAAGGGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggTGCTGGTGGTGCACGAGAAG
+Oligo adding rev	AAACCTTCTCGTGCACCACCAGCA
+Oligo substituting fwd	TAggCTGGTGGTGCACGAGAAG
+Oligo substituting rev	AAACCTTCTCGTGCACCACCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T127	GGTGGTGCACGAGAAGGGGTCGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo fwd	TAGGTGGTGCACGAGAAGGGGT
+Oligo rev	AAACACCCCTTCTCGTGCACCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T128	GGTGCACGAGAAGGGGTCGGCGG	1000	CRISPRater score	0.74 (MEDIUM)
+Oligo fwd	TAGGTGCACGAGAAGGGGTCGG
+Oligo rev	AAACCCGACCCCTTCTCGTGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T129	AGGGGTCGGCGGAGAGCTTTAGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggAGGGGTCGGCGGAGAGCTTT
+Oligo adding rev	AAACAAAGCTCTCCGCCGACCCCT
+Oligo substituting fwd	TAggGGGTCGGCGGAGAGCTTT
+Oligo substituting rev	AAACAAAGCTCTCCGCCGACCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T130	CGGAGAGCTTTAGGACGATGTGG	1000	CRISPRater score	0.56 (MEDIUM)
+Oligo adding fwd	TAggCGGAGAGCTTTAGGACGATG
+Oligo adding rev	AAACCATCGTCCTAAAGCTCTCCG
+Oligo substituting fwd	TAggGAGAGCTTTAGGACGATG
+Oligo substituting rev	AAACCATCGTCCTAAAGCTCTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T131	GCTTTAGGACGATGTGGAAGAGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAgGCTTTAGGACGATGTGGAAG
+Oligo adding rev	AAACCTTCCACATCGTCCTAAAG
+Oligo substituting fwd	TAGgTTTAGGACGATGTGGAAG
+Oligo substituting rev	AAACCTTCCACATCGTCCTAAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T132	GGACGATGTGGAAGAGGTTGCGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo fwd	TAGGACGATGTGGAAGAGGTTG
+Oligo rev	AAACCAACCTCTTCCACATCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T133	GATGTGGAAGAGGTTGCGGCAGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAgGATGTGGAAGAGGTTGCGGC
+Oligo adding rev	AAACGCCGCAACCTCTTCCACAT
+Oligo substituting fwd	TAGgTGTGGAAGAGGTTGCGGC
+Oligo substituting rev	AAACGCCGCAACCTCTTCCACA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T134	GGAAGAGGTTGCGGCAGGAGTGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo fwd	TAGGAAGAGGTTGCGGCAGGAG
+Oligo rev	AAACCTCCTGCCGCAACCTCTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T135	GTTGCGGCAGGAGTGGACGTTGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAgGTTGCGGCAGGAGTGGACGT
+Oligo adding rev	AAACACGTCCACTCCTGCCGCAA
+Oligo substituting fwd	TAGgTGCGGCAGGAGTGGACGT
+Oligo substituting rev	AAACACGTCCACTCCTGCCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T136	GCAGGAGTGGACGTTGGATGTGG	1000	CRISPRater score	0.81 (HIGH)
+Oligo adding fwd	TAgGCAGGAGTGGACGTTGGATG
+Oligo adding rev	AAACCATCCAACGTCCACTCCTG
+Oligo substituting fwd	TAGgAGGAGTGGACGTTGGATG
+Oligo substituting rev	AAACCATCCAACGTCCACTCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T137	GGAGTGGACGTTGGATGTGGTGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo fwd	TAGGAGTGGACGTTGGATGTGG
+Oligo rev	AAACCCACATCCAACGTCCACT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T138	GAGTGGACGTTGGATGTGGTGGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAgGAGTGGACGTTGGATGTGGT
+Oligo adding rev	AAACACCACATCCAACGTCCACT
+Oligo substituting fwd	TAGgGTGGACGTTGGATGTGGT
+Oligo substituting rev	AAACACCACATCCAACGTCCAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T139	AGTGGACGTTGGATGTGGTGGGG	1000	CRISPRater score	0.83 (HIGH)
+Oligo adding fwd	TAggAGTGGACGTTGGATGTGGTG
+Oligo adding rev	AAACCACCACATCCAACGTCCACT
+Oligo substituting fwd	TAggTGGACGTTGGATGTGGTG
+Oligo substituting rev	AAACCACCACATCCAACGTCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T140	GTGGACGTTGGATGTGGTGGGGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAgGTGGACGTTGGATGTGGTGG
+Oligo adding rev	AAACCCACCACATCCAACGTCCA
+Oligo substituting fwd	TAGgGGACGTTGGATGTGGTGG
+Oligo substituting rev	AAACCCACCACATCCAACGTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T141	GACGTTGGATGTGGTGGGGGCGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGACGTTGGATGTGGTGGGGG
+Oligo adding rev	AAACCCCCCACCACATCCAACGT
+Oligo substituting fwd	TAGgCGTTGGATGTGGTGGGGG
+Oligo substituting rev	AAACCCCCCACCACATCCAACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T142	ACGTTGGATGTGGTGGGGGCGGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggACGTTGGATGTGGTGGGGGC
+Oligo adding rev	AAACGCCCCCACCACATCCAACGT
+Oligo substituting fwd	TAggGTTGGATGTGGTGGGGGC
+Oligo substituting rev	AAACGCCCCCACCACATCCAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T143	CGTTGGATGTGGTGGGGGCGGGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggCGTTGGATGTGGTGGGGGCG
+Oligo adding rev	AAACCGCCCCCACCACATCCAACG
+Oligo substituting fwd	TAggTTGGATGTGGTGGGGGCG
+Oligo substituting rev	AAACCGCCCCCACCACATCCAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T144	GGGGGCGGGGACGCCGTGTGAGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo fwd	TAGGGGGCGGGGACGCCGTGTG
+Oligo rev	AAACCACACGGCGTCCCCGCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T145	GGCGGGGACGCCGTGTGAGGTGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo fwd	TAGGCGGGGACGCCGTGTGAGG
+Oligo rev	AAACCCTCACACGGCGTCCCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T146	GGCGCCTATTCCGCCGCCGAAGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo fwd	TAGGCGCCTATTCCGCCGCCGA
+Oligo rev	AAACTCGGCGGCGGAATAGGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T147	GCCGAAGGATAGACGCGTGTTGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAgGCCGAAGGATAGACGCGTGT
+Oligo adding rev	AAACACACGCGTCTATCCTTCGG
+Oligo substituting fwd	TAGgCGAAGGATAGACGCGTGT
+Oligo substituting rev	AAACACACGCGTCTATCCTTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T148	CCGAAGGATAGACGCGTGTTGGG	1000	CRISPRater score	0.53 (LOW)
+Oligo adding fwd	TAggCCGAAGGATAGACGCGTGTT
+Oligo adding rev	AAACAACACGCGTCTATCCTTCGG
+Oligo substituting fwd	TAggGAAGGATAGACGCGTGTT
+Oligo substituting rev	AAACAACACGCGTCTATCCTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T149	GGATAGACGCGTGTTGGGAATGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo fwd	TAGGATAGACGCGTGTTGGGAA
+Oligo rev	AAACTTCCCAACACGCGTCTAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T150	ATGCGCATAGAAATATCTCCTGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggATGCGCATAGAAATATCTCC
+Oligo adding rev	AAACGGAGATATTTCTATGCGCAT
+Oligo substituting fwd	TAggGCGCATAGAAATATCTCC
+Oligo substituting rev	AAACGGAGATATTTCTATGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T151	TGCGCATAGAAATATCTCCTGGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggTGCGCATAGAAATATCTCCT
+Oligo adding rev	AAACAGGAGATATTTCTATGCGCA
+Oligo substituting fwd	TAggCGCATAGAAATATCTCCT
+Oligo substituting rev	AAACAGGAGATATTTCTATGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T152	AAATATCTCCTGGGATACTTTGG	1000	CRISPRater score	0.53 (LOW)
+Oligo adding fwd	TAggAAATATCTCCTGGGATACTT
+Oligo adding rev	AAACAAGTATCCCAGGAGATATTT
+Oligo substituting fwd	TAggATATCTCCTGGGATACTT
+Oligo substituting rev	AAACAAGTATCCCAGGAGATAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T153	CGTGAAAGGCAGTTCTCTTGCGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAggCGTGAAAGGCAGTTCTCTTG
+Oligo adding rev	AAACCAAGAGAACTGCCTTTCACG
+Oligo substituting fwd	TAggTGAAAGGCAGTTCTCTTG
+Oligo substituting rev	AAACCAAGAGAACTGCCTTTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T154	TCTTGCGGCCAAAGTATCCCAGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggTCTTGCGGCCAAAGTATCCC
+Oligo adding rev	AAACGGGATACTTTGGCCGCAAGA
+Oligo substituting fwd	TAggTTGCGGCCAAAGTATCCC
+Oligo substituting rev	AAACGGGATACTTTGGCCGCAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T155	TGAATATACATCTGTGTAAACGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggTGAATATACATCTGTGTAAA
+Oligo adding rev	AAACTTTACACAGATGTATATTCA
+Oligo substituting fwd	TAggAATATACATCTGTGTAAA
+Oligo substituting rev	AAACTTTACACAGATGTATATT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T156	GAATATACATCTGTGTAAACGGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo adding fwd	TAgGAATATACATCTGTGTAAAC
+Oligo adding rev	AAACGTTTACACAGATGTATATT
+Oligo substituting fwd	TAGgATATACATCTGTGTAAAC
+Oligo substituting rev	AAACGTTTACACAGATGTATAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T157	GGTGCAGTCAAGATGTCTAAAGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo fwd	TAGGTGCAGTCAAGATGTCTAA
+Oligo rev	AAACTTAGACATCTTGACTGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T158	GTGCAGTCAAGATGTCTAAAGGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo adding fwd	TAgGTGCAGTCAAGATGTCTAAA
+Oligo adding rev	AAACTTTAGACATCTTGACTGCA
+Oligo substituting fwd	TAGgGCAGTCAAGATGTCTAAA
+Oligo substituting rev	AAACTTTAGACATCTTGACTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T159	CCCAACACGCGTCTATCCTTCGG	1000	CRISPRater score	0.54 (LOW)
+Oligo adding fwd	TAggCCCAACACGCGTCTATCCTT
+Oligo adding rev	AAACAAGGATAGACGCGTGTTGGG
+Oligo substituting fwd	TAggCAACACGCGTCTATCCTT
+Oligo substituting rev	AAACAAGGATAGACGCGTGTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T160	AACACGCGTCTATCCTTCGGCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggAACACGCGTCTATCCTTCGG
+Oligo adding rev	AAACCCGAAGGATAGACGCGTGTT
+Oligo substituting fwd	TAggCACGCGTCTATCCTTCGG
+Oligo substituting rev	AAACCCGAAGGATAGACGCGTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T161	ACGCGTCTATCCTTCGGCGGCGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggACGCGTCTATCCTTCGGCGG
+Oligo adding rev	AAACCCGCCGAAGGATAGACGCGT
+Oligo substituting fwd	TAggGCGTCTATCCTTCGGCGG
+Oligo substituting rev	AAACCCGCCGAAGGATAGACGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T162	CTATCCTTCGGCGGCGGAATAGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggCTATCCTTCGGCGGCGGAAT
+Oligo adding rev	AAACATTCCGCCGCCGAAGGATAG
+Oligo substituting fwd	TAggATCCTTCGGCGGCGGAAT
+Oligo substituting rev	AAACATTCCGCCGCCGAAGGAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T163	GGAATAGGCGCCACCTCACACGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo fwd	TAGGAATAGGCGCCACCTCACA
+Oligo rev	AAACTGTGAGGTGGCGCCTATT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T164	GCACCACCAGCAACGCCACCCGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGCACCACCAGCAACGCCACC
+Oligo adding rev	AAACGGTGGCGTTGCTGGTGGTG
+Oligo substituting fwd	TAGgACCACCAGCAACGCCACC
+Oligo substituting rev	AAACGGTGGCGTTGCTGGTGGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T165	CCAGCATGCGCACCTCCACCCGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAggCCAGCATGCGCACCTCCACC
+Oligo adding rev	AAACGGTGGAGGTGCGCATGCTGG
+Oligo substituting fwd	TAggAGCATGCGCACCTCCACC
+Oligo substituting rev	AAACGGTGGAGGTGCGCATGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T166	CGTCCCGCGTGTCGTCGAGCCGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggCGTCCCGCGTGTCGTCGAGC
+Oligo adding rev	AAACGCTCGACGACACGCGGGACG
+Oligo substituting fwd	TAggTCCCGCGTGTCGTCGAGC
+Oligo substituting rev	AAACGCTCGACGACACGCGGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T167	TGTCGTCGAGCCGGCAGCGCAGG	1000	CRISPRater score	0.74 (MEDIUM)
+Oligo adding fwd	TAggTGTCGTCGAGCCGGCAGCGC
+Oligo adding rev	AAACGCGCTGCCGGCTCGACGACA
+Oligo substituting fwd	TAggTCGTCGAGCCGGCAGCGC
+Oligo substituting rev	AAACGCGCTGCCGGCTCGACGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T168	AGCCGGCAGCGCAGGATGCCCGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggAGCCGGCAGCGCAGGATGCC
+Oligo adding rev	AAACGGCATCCTGCGCTGCCGGCT
+Oligo substituting fwd	TAggCCGGCAGCGCAGGATGCC
+Oligo substituting rev	AAACGGCATCCTGCGCTGCCGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T169	GCGCGCCCATGCGCATGAGCAGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAgGCGCGCCCATGCGCATGAGC
+Oligo adding rev	AAACGCTCATGCGCATGGGCGCG
+Oligo substituting fwd	TAGgGCGCCCATGCGCATGAGC
+Oligo substituting rev	AAACGCTCATGCGCATGGGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T170	CATGAGCAGGCGCCGCGCCTCGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggCATGAGCAGGCGCCGCGCCT
+Oligo adding rev	AAACAGGCGCGGCGCCTGCTCATG
+Oligo substituting fwd	TAggTGAGCAGGCGCCGCGCCT
+Oligo substituting rev	AAACAGGCGCGGCGCCTGCTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T171	GCGCCGCGCCTCGGAGCGCGCGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAgGCGCCGCGCCTCGGAGCGCG
+Oligo adding rev	AAACCGCGCTCCGAGGCGCGGCG
+Oligo substituting fwd	TAGgGCCGCGCCTCGGAGCGCG
+Oligo substituting rev	AAACCGCGCTCCGAGGCGCGGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T172	CGCCTCGGAGCGCGCGGTCGCGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAggCGCCTCGGAGCGCGCGGTCG
+Oligo adding rev	AAACCGACCGCGCGCTCCGAGGCG
+Oligo substituting fwd	TAggCCTCGGAGCGCGCGGTCG
+Oligo substituting rev	AAACCGACCGCGCGCTCCGAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T173	CGCGGTCGCGGCGCCATGCGTGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAggCGCGGTCGCGGCGCCATGCG
+Oligo adding rev	AAACCGCATGGCGCCGCGACCGCG
+Oligo substituting fwd	TAggCGGTCGCGGCGCCATGCG
+Oligo substituting rev	AAACCGCATGGCGCCGCGACCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T174	TGCGTGGAGAGCAGCGTCTGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTGCGTGGAGAGCAGCGTCTG
+Oligo adding rev	AAACCAGACGCTGCTCTCCACGCA
+Oligo substituting fwd	TAggCGTGGAGAGCAGCGTCTG
+Oligo substituting rev	AAACCAGACGCTGCTCTCCACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T175	GTGGAGAGCAGCGTCTGCGGCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAgGTGGAGAGCAGCGTCTGCGG
+Oligo adding rev	AAACCCGCAGACGCTGCTCTCCA
+Oligo substituting fwd	TAGgGGAGAGCAGCGTCTGCGG
+Oligo substituting rev	AAACCCGCAGACGCTGCTCTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T176	TCTGCGGCGGCGTGCGCATGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTCTGCGGCGGCGTGCGCATG
+Oligo adding rev	AAACCATGCGCACGCCGCCGCAGA
+Oligo substituting fwd	TAggTGCGGCGGCGTGCGCATG
+Oligo substituting rev	AAACCATGCGCACGCCGCCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T177	CGTGCGCATGCGGAAGAGCGCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggCGTGCGCATGCGGAAGAGCG
+Oligo adding rev	AAACCGCTCTTCCGCATGCGCACG
+Oligo substituting fwd	TAggTGCGCATGCGGAAGAGCG
+Oligo substituting rev	AAACCGCTCTTCCGCATGCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T178	GTGCGCATGCGGAAGAGCGCGGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAgGTGCGCATGCGGAAGAGCGC
+Oligo adding rev	AAACGCGCTCTTCCGCATGCGCA
+Oligo substituting fwd	TAGgGCGCATGCGGAAGAGCGC
+Oligo substituting rev	AAACGCGCTCTTCCGCATGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T179	TGCGCATGCGGAAGAGCGCGGGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo adding fwd	TAggTGCGCATGCGGAAGAGCGCG
+Oligo adding rev	AAACCGCGCTCTTCCGCATGCGCA
+Oligo substituting fwd	TAggCGCATGCGGAAGAGCGCG
+Oligo substituting rev	AAACCGCGCTCTTCCGCATGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T180	GCGGGGAGCCAGCTGTGCTTCGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAgGCGGGGAGCCAGCTGTGCTT
+Oligo adding rev	AAACAAGCACAGCTGGCTCCCCG
+Oligo substituting fwd	TAGgGGGGAGCCAGCTGTGCTT
+Oligo substituting rev	AAACAAGCACAGCTGGCTCCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T181	TGCTTCGGAGACGCGCCTAGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTGCTTCGGAGACGCGCCTAG
+Oligo adding rev	AAACCTAGGCGCGTCTCCGAAGCA
+Oligo substituting fwd	TAggCTTCGGAGACGCGCCTAG
+Oligo substituting rev	AAACCTAGGCGCGTCTCCGAAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T182	AGACGCGCCTAGCGGCGAACTGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggAGACGCGCCTAGCGGCGAAC
+Oligo adding rev	AAACGTTCGCCGCTAGGCGCGTCT
+Oligo substituting fwd	TAggACGCGCCTAGCGGCGAAC
+Oligo substituting rev	AAACGTTCGCCGCTAGGCGCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T183	GACGCGCCTAGCGGCGAACTGGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAgGACGCGCCTAGCGGCGAACT
+Oligo adding rev	AAACAGTTCGCCGCTAGGCGCGT
+Oligo substituting fwd	TAGgCGCGCCTAGCGGCGAACT
+Oligo substituting rev	AAACAGTTCGCCGCTAGGCGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T184	GCCTAGCGGCGAACTGGGCGAGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAgGCCTAGCGGCGAACTGGGCG
+Oligo adding rev	AAACCGCCCAGTTCGCCGCTAGG
+Oligo substituting fwd	TAGgCTAGCGGCGAACTGGGCG
+Oligo substituting rev	AAACCGCCCAGTTCGCCGCTAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T185	CCTAGCGGCGAACTGGGCGAGGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAggCCTAGCGGCGAACTGGGCGA
+Oligo adding rev	AAACTCGCCCAGTTCGCCGCTAGG
+Oligo substituting fwd	TAggTAGCGGCGAACTGGGCGA
+Oligo substituting rev	AAACTCGCCCAGTTCGCCGCTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T186	AGCGGCGAACTGGGCGAGGGCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggAGCGGCGAACTGGGCGAGGG
+Oligo adding rev	AAACCCCTCGCCCAGTTCGCCGCT
+Oligo substituting fwd	TAggCGGCGAACTGGGCGAGGG
+Oligo substituting rev	AAACCCCTCGCCCAGTTCGCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T187	AACTGGGCGAGGGCGGCTCAAGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggAACTGGGCGAGGGCGGCTCA
+Oligo adding rev	AAACTGAGCCGCCCTCGCCCAGTT
+Oligo substituting fwd	TAggCTGGGCGAGGGCGGCTCA
+Oligo substituting rev	AAACTGAGCCGCCCTCGCCCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T188	GGGCGGCTCAAGGAAGAACGAGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo fwd	TAGGGCGGCTCAAGGAAGAACG
+Oligo rev	AAACCGTTCTTCCTTGAGCCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T189	CGGCTCAAGGAAGAACGAGGTGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAggCGGCTCAAGGAAGAACGAGG
+Oligo adding rev	AAACCCTCGTTCTTCCTTGAGCCG
+Oligo substituting fwd	TAggGCTCAAGGAAGAACGAGG
+Oligo substituting rev	AAACCCTCGTTCTTCCTTGAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T190	GGCTCAAGGAAGAACGAGGTGGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo fwd	TAGGCTCAAGGAAGAACGAGGT
+Oligo rev	AAACACCTCGTTCTTCCTTGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T191	AAGGAAGAACGAGGTGGGCGTGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggAAGGAAGAACGAGGTGGGCG
+Oligo adding rev	AAACCGCCCACCTCGTTCTTCCTT
+Oligo substituting fwd	TAggGGAAGAACGAGGTGGGCG
+Oligo substituting rev	AAACCGCCCACCTCGTTCTTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T192	GCGTGGCGATGTTCTCATCGCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAgGCGTGGCGATGTTCTCATCG
+Oligo adding rev	AAACCGATGAGAACATCGCCACG
+Oligo substituting fwd	TAGgGTGGCGATGTTCTCATCG
+Oligo substituting rev	AAACCGATGAGAACATCGCCAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T193	ATCGCGGCGCTTCTTCGATTTGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggATCGCGGCGCTTCTTCGATT
+Oligo adding rev	AAACAATCGAAGAAGCGCCGCGAT
+Oligo substituting fwd	TAggCGCGGCGCTTCTTCGATT
+Oligo substituting rev	AAACAATCGAAGAAGCGCCGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T194	TCGCGGCGCTTCTTCGATTTGGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggTCGCGGCGCTTCTTCGATTT
+Oligo adding rev	AAACAAATCGAAGAAGCGCCGCGA
+Oligo substituting fwd	TAggGCGGCGCTTCTTCGATTT
+Oligo substituting rev	AAACAAATCGAAGAAGCGCCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T195	GCGCTTCTTCGATTTGGGCTTGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGCGCTTCTTCGATTTGGGCT
+Oligo adding rev	AAACAGCCCAAATCGAAGAAGCG
+Oligo substituting fwd	TAGgGCTTCTTCGATTTGGGCT
+Oligo substituting rev	AAACAGCCCAAATCGAAGAAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T196	TGGACGAGCTCTTCTTGCCCAGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTGGACGAGCTCTTCTTGCCC
+Oligo adding rev	AAACGGGCAAGAAGAGCTCGTCCA
+Oligo substituting fwd	TAggGACGAGCTCTTCTTGCCC
+Oligo substituting rev	AAACGGGCAAGAAGAGCTCGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T197	CCAGGTTCGTCTGCACCCTGAGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCCAGGTTCGTCTGCACCCTG
+Oligo adding rev	AAACCAGGGTGCAGACGAACCTGG
+Oligo substituting fwd	TAggAGGTTCGTCTGCACCCTG
+Oligo substituting rev	AAACCAGGGTGCAGACGAACCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T198	CCCTGAGGTCGCCGAAGACGCGG	1000	CRISPRater score	0.57 (MEDIUM)
+Oligo adding fwd	TAggCCCTGAGGTCGCCGAAGACG
+Oligo adding rev	AAACCGTCTTCGGCGACCTCAGGG
+Oligo substituting fwd	TAggCTGAGGTCGCCGAAGACG
+Oligo substituting rev	AAACCGTCTTCGGCGACCTCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T199	TGAGGTCGCCGAAGACGCGGCGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAggTGAGGTCGCCGAAGACGCGG
+Oligo adding rev	AAACCCGCGTCTTCGGCGACCTCA
+Oligo substituting fwd	TAggAGGTCGCCGAAGACGCGG
+Oligo substituting rev	AAACCCGCGTCTTCGGCGACCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T200	GAGGTCGCCGAAGACGCGGCGGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAgGAGGTCGCCGAAGACGCGGC
+Oligo adding rev	AAACGCCGCGTCTTCGGCGACCT
+Oligo substituting fwd	TAGgGGTCGCCGAAGACGCGGC
+Oligo substituting rev	AAACGCCGCGTCTTCGGCGACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T201	GCCGAAGACGCGGCGGGATTTGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAgGCCGAAGACGCGGCGGGATT
+Oligo adding rev	AAACAATCCCGCCGCGTCTTCGG
+Oligo substituting fwd	TAGgCGAAGACGCGGCGGGATT
+Oligo substituting rev	AAACAATCCCGCCGCGTCTTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T202	CCGAAGACGCGGCGGGATTTGGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggCCGAAGACGCGGCGGGATTT
+Oligo adding rev	AAACAAATCCCGCCGCGTCTTCGG
+Oligo substituting fwd	TAggGAAGACGCGGCGGGATTT
+Oligo substituting rev	AAACAAATCCCGCCGCGTCTTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T203	CGGCGGGATTTGGGAGCTTTCGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggCGGCGGGATTTGGGAGCTTT
+Oligo adding rev	AAACAAAGCTCCCAAATCCCGCCG
+Oligo substituting fwd	TAggGCGGGATTTGGGAGCTTT
+Oligo substituting rev	AAACAAAGCTCCCAAATCCCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T204	GGAGCTTTCGGCGTTACCGTAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo fwd	TAGGAGCTTTCGGCGTTACCGT
+Oligo rev	AAACACGGTAACGCCGAAAGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T205	TTTCGGCGTTACCGTAGGCGTGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggTTTCGGCGTTACCGTAGGCG
+Oligo adding rev	AAACCGCCTACGGTAACGCCGAAA
+Oligo substituting fwd	TAggTCGGCGTTACCGTAGGCG
+Oligo substituting rev	AAACCGCCTACGGTAACGCCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T206	CCATGTTCACGTTCTGCTTGCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCCATGTTCACGTTCTGCTTG
+Oligo adding rev	AAACCAAGCAGAACGTGAACATGG
+Oligo substituting fwd	TAggATGTTCACGTTCTGCTTG
+Oligo substituting rev	AAACCAAGCAGAACGTGAACAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T207	TGCTTGCGGCTGATCGTGAGCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggTGCTTGCGGCTGATCGTGAG
+Oligo adding rev	AAACCTCACGATCAGCCGCAAGCA
+Oligo substituting fwd	TAggCTTGCGGCTGATCGTGAG
+Oligo substituting rev	AAACCTCACGATCAGCCGCAAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T208	GCGGCTGATCGTGAGCGGCGCGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGCGGCTGATCGTGAGCGGCG
+Oligo adding rev	AAACCGCCGCTCACGATCAGCCG
+Oligo substituting fwd	TAGgGGCTGATCGTGAGCGGCG
+Oligo substituting rev	AAACCGCCGCTCACGATCAGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T209	GCGGTGCCACCCGTATGAAGCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAgGCGGTGCCACCCGTATGAAG
+Oligo adding rev	AAACCTTCATACGGGTGGCACCG
+Oligo substituting fwd	TAGgGGTGCCACCCGTATGAAG
+Oligo substituting rev	AAACCTTCATACGGGTGGCACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T210	CGTATGAAGCGGTTCCATCTCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCGTATGAAGCGGTTCCATCT
+Oligo adding rev	AAACAGATGGAACCGCTTCATACG
+Oligo substituting fwd	TAggTATGAAGCGGTTCCATCT
+Oligo substituting rev	AAACAGATGGAACCGCTTCATA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T211	AAGCGGTTCCATCTCGGAGATGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAggAAGCGGTTCCATCTCGGAGA
+Oligo adding rev	AAACTCTCCGAGATGGAACCGCTT
+Oligo substituting fwd	TAggGCGGTTCCATCTCGGAGA
+Oligo substituting rev	AAACTCTCCGAGATGGAACCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T212	GTTCCATCTCGGAGATGGCATGG	1000	CRISPRater score	0.54 (LOW)
+Oligo adding fwd	TAgGTTCCATCTCGGAGATGGCA
+Oligo adding rev	AAACTGCCATCTCCGAGATGGAA
+Oligo substituting fwd	TAGgTCCATCTCGGAGATGGCA
+Oligo substituting rev	AAACTGCCATCTCCGAGATGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T213	GTAGTCGCCGTCGCCAGACGAGG	1000	CRISPRater score	0.83 (HIGH)
+Oligo adding fwd	TAgGTAGTCGCCGTCGCCAGACG
+Oligo adding rev	AAACCGTCTGGCGACGGCGACTA
+Oligo substituting fwd	TAGgAGTCGCCGTCGCCAGACG
+Oligo substituting rev	AAACCGTCTGGCGACGGCGACT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T214	GAGGCAGTGAAGACATCAGCCGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAgGAGGCAGTGAAGACATCAGC
+Oligo adding rev	AAACGCTGATGTCTTCACTGCCT
+Oligo substituting fwd	TAGgGGCAGTGAAGACATCAGC
+Oligo substituting rev	AAACGCTGATGTCTTCACTGCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T215	GCAGTGAAGACATCAGCCGGAGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAgGCAGTGAAGACATCAGCCGG
+Oligo adding rev	AAACCCGGCTGATGTCTTCACTG
+Oligo substituting fwd	TAGgAGTGAAGACATCAGCCGG
+Oligo substituting rev	AAACCCGGCTGATGTCTTCACT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T216	ACACCTGCGACACGTTGCCTTGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggACACCTGCGACACGTTGCCT
+Oligo adding rev	AAACAGGCAACGTGTCGCAGGTGT
+Oligo substituting fwd	TAggACCTGCGACACGTTGCCT
+Oligo substituting rev	AAACAGGCAACGTGTCGCAGGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T217	CACCTGCGACACGTTGCCTTGGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCACCTGCGACACGTTGCCTT
+Oligo adding rev	AAACAAGGCAACGTGTCGCAGGTG
+Oligo substituting fwd	TAggCCTGCGACACGTTGCCTT
+Oligo substituting rev	AAACAAGGCAACGTGTCGCAGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T218	ACCTGCGACACGTTGCCTTGGGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggACCTGCGACACGTTGCCTTG
+Oligo adding rev	AAACCAAGGCAACGTGTCGCAGGT
+Oligo substituting fwd	TAggCTGCGACACGTTGCCTTG
+Oligo substituting rev	AAACCAAGGCAACGTGTCGCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T219	GACACGTTGCCTTGGGGCGACGG	1000	CRISPRater score	0.56 (LOW)
+Oligo adding fwd	TAgGACACGTTGCCTTGGGGCGA
+Oligo adding rev	AAACTCGCCCCAAGGCAACGTGT
+Oligo substituting fwd	TAGgCACGTTGCCTTGGGGCGA
+Oligo substituting rev	AAACTCGCCCCAAGGCAACGTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T220	GGCGACGAGCAGACAATGCGCGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo fwd	TAGGCGACGAGCAGACAATGCG
+Oligo rev	AAACCGCATTGTCTGCTCGTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T221	GCGACGAGCAGACAATGCGCGGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAgGCGACGAGCAGACAATGCGC
+Oligo adding rev	AAACGCGCATTGTCTGCTCGTCG
+Oligo substituting fwd	TAGgGACGAGCAGACAATGCGC
+Oligo substituting rev	AAACGCGCATTGTCTGCTCGTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T222	CGACGAGCAGACAATGCGCGGGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAggCGACGAGCAGACAATGCGCG
+Oligo adding rev	AAACCGCGCATTGTCTGCTCGTCG
+Oligo substituting fwd	TAggACGAGCAGACAATGCGCG
+Oligo substituting rev	AAACCGCGCATTGTCTGCTCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T223	CGCGGGGCGCCAGCCTTGCGAGG	1000	CRISPRater score	0.86 (HIGH)
+Oligo adding fwd	TAggCGCGGGGCGCCAGCCTTGCG
+Oligo adding rev	AAACCGCAAGGCTGGCGCCCCGCG
+Oligo substituting fwd	TAggCGGGGCGCCAGCCTTGCG
+Oligo substituting rev	AAACCGCAAGGCTGGCGCCCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T224	GGAGTTGCTGAATCTTCGCTCGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo fwd	TAGGAGTTGCTGAATCTTCGCT
+Oligo rev	AAACAGCGAAGATTCAGCAACT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T225	GAGTTGCTGAATCTTCGCTCGGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAgGAGTTGCTGAATCTTCGCTC
+Oligo adding rev	AAACGAGCGAAGATTCAGCAACT
+Oligo substituting fwd	TAGgGTTGCTGAATCTTCGCTC
+Oligo substituting rev	AAACGAGCGAAGATTCAGCAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T226	AATCTTCGCTCGGGTACACGCGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggAATCTTCGCTCGGGTACACG
+Oligo adding rev	AAACCGTGTACCCGAGCGAAGATT
+Oligo substituting fwd	TAggTCTTCGCTCGGGTACACG
+Oligo substituting rev	AAACCGTGTACCCGAGCGAAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T227	CGGTGCCGTGCGCCGCGCTTCGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCGGTGCCGTGCGCCGCGCTT
+Oligo adding rev	AAACAAGCGCGGCGCACGGCACCG
+Oligo substituting fwd	TAggGTGCCGTGCGCCGCGCTT
+Oligo substituting rev	AAACAAGCGCGGCGCACGGCAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T228	CGTGCGCCGCGCTTCGGCGTAGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCGTGCGCCGCGCTTCGGCGT
+Oligo adding rev	AAACACGCCGAAGCGCGGCGCACG
+Oligo substituting fwd	TAggTGCGCCGCGCTTCGGCGT
+Oligo substituting rev	AAACACGCCGAAGCGCGGCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T229	GGCGTAGGAGCGTCGTTCCGAGG	1000	CRISPRater score	0.84 (HIGH)
+Oligo fwd	TAGGCGTAGGAGCGTCGTTCCG
+Oligo rev	AAACCGGAACGACGCTCCTACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T230	CTTCTTGCACATACTGATCGAGG	1000	CRISPRater score	0.82 (HIGH)
+Oligo adding fwd	TAggCTTCTTGCACATACTGATCG
+Oligo adding rev	AAACCGATCAGTATGTGCAAGAAG
+Oligo substituting fwd	TAggTCTTGCACATACTGATCG
+Oligo substituting rev	AAACCGATCAGTATGTGCAAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T231	CATACTGATCGAGGACCTTCTGG	1000	CRISPRater score	0.53 (LOW)
+Oligo adding fwd	TAggCATACTGATCGAGGACCTTC
+Oligo adding rev	AAACGAAGGTCCTCGATCAGTATG
+Oligo substituting fwd	TAggTACTGATCGAGGACCTTC
+Oligo substituting rev	AAACGAAGGTCCTCGATCAGTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T232	GGACCTTCTGGCGATGAGCAAGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo fwd	TAGGACCTTCTGGCGATGAGCA
+Oligo rev	AAACTGCTCATCGCCAGAAGGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T233	CCTTCTGGCGATGAGCAAGGAGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggCCTTCTGGCGATGAGCAAGG
+Oligo adding rev	AAACCCTTGCTCATCGCCAGAAGG
+Oligo substituting fwd	TAggTTCTGGCGATGAGCAAGG
+Oligo substituting rev	AAACCCTTGCTCATCGCCAGAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T234	GGCGATGAGCAAGGAGGAGCCGG	1000	CRISPRater score	0.48 (LOW)
+Oligo fwd	TAGGCGATGAGCAAGGAGGAGC
+Oligo rev	AAACGCTCCTCCTTGCTCATCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T235	AGCAAGGAGGAGCCGGAAGATGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggAGCAAGGAGGAGCCGGAAGA
+Oligo adding rev	AAACTCTTCCGGCTCCTCCTTGCT
+Oligo substituting fwd	TAggCAAGGAGGAGCCGGAAGA
+Oligo substituting rev	AAACTCTTCCGGCTCCTCCTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T236	GTGTCTTCTTAGCGCACTCAAGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAgGTGTCTTCTTAGCGCACTCA
+Oligo adding rev	AAACTGAGTGCGCTAAGAAGACA
+Oligo substituting fwd	TAGgGTCTTCTTAGCGCACTCA
+Oligo substituting rev	AAACTGAGTGCGCTAAGAAGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T237	TTCGCGAGTAGATCCGCGTCAGG	1000	CRISPRater score	0.66 (MEDIUM)
+Oligo adding fwd	TAggTTCGCGAGTAGATCCGCGTC
+Oligo adding rev	AAACGACGCGGATCTACTCGCGAA
+Oligo substituting fwd	TAggCGCGAGTAGATCCGCGTC
+Oligo substituting rev	AAACGACGCGGATCTACTCGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T238	GTCCGTGCCAGAGTGTGCGCAGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAgGTCCGTGCCAGAGTGTGCGC
+Oligo adding rev	AAACGCGCACACTCTGGCACGGA
+Oligo substituting fwd	TAGgCCGTGCCAGAGTGTGCGC
+Oligo substituting rev	AAACGCGCACACTCTGGCACGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T239	GTGCCAGAGTGTGCGCAGGTTGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAgGTGCCAGAGTGTGCGCAGGT
+Oligo adding rev	AAACACCTGCGCACACTCTGGCA
+Oligo substituting fwd	TAGgGCCAGAGTGTGCGCAGGT
+Oligo substituting rev	AAACACCTGCGCACACTCTGGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T240	CGCAGGTTGGCGAACAGCTCAGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAggCGCAGGTTGGCGAACAGCTC
+Oligo adding rev	AAACGAGCTGTTCGCCAACCTGCG
+Oligo substituting fwd	TAggCAGGTTGGCGAACAGCTC
+Oligo substituting rev	AAACGAGCTGTTCGCCAACCTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T241	CAGCTCAGGCTCCTTGATGTCGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCAGCTCAGGCTCCTTGATGT
+Oligo adding rev	AAACACATCAAGGAGCCTGAGCTG
+Oligo substituting fwd	TAggGCTCAGGCTCCTTGATGT
+Oligo substituting rev	AAACACATCAAGGAGCCTGAGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T242	TTGATGTCGGCGCCAAGAATAGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTTGATGTCGGCGCCAAGAAT
+Oligo adding rev	AAACATTCTTGGCGCCGACATCAA
+Oligo substituting fwd	TAggGATGTCGGCGCCAAGAAT
+Oligo substituting rev	AAACATTCTTGGCGCCGACATC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T243	AAGAATAGGCTCGAGAGCAGAGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggAAGAATAGGCTCGAGAGCAG
+Oligo adding rev	AAACCTGCTCTCGAGCCTATTCTT
+Oligo substituting fwd	TAggGAATAGGCTCGAGAGCAG
+Oligo substituting rev	AAACCTGCTCTCGAGCCTATTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T244	CTCGAGAGCAGAGGTGCCGAAGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggCTCGAGAGCAGAGGTGCCGA
+Oligo adding rev	AAACTCGGCACCTCTGCTCTCGAG
+Oligo substituting fwd	TAggCGAGAGCAGAGGTGCCGA
+Oligo substituting rev	AAACTCGGCACCTCTGCTCTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T245	AGAGCAGAGGTGCCGAAGGTAGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAggAGAGCAGAGGTGCCGAAGGT
+Oligo adding rev	AAACACCTTCGGCACCTCTGCTCT
+Oligo substituting fwd	TAggAGCAGAGGTGCCGAAGGT
+Oligo substituting rev	AAACACCTTCGGCACCTCTGCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T246	GAGGTGCCGAAGGTAGGTTCCGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAgGAGGTGCCGAAGGTAGGTTC
+Oligo adding rev	AAACGAACCTACCTTCGGCACCT
+Oligo substituting fwd	TAGgGGTGCCGAAGGTAGGTTC
+Oligo substituting rev	AAACGAACCTACCTTCGGCACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T247	AGGTGCCGAAGGTAGGTTCCGGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggAGGTGCCGAAGGTAGGTTCC
+Oligo adding rev	AAACGGAACCTACCTTCGGCACCT
+Oligo substituting fwd	TAggGTGCCGAAGGTAGGTTCC
+Oligo substituting rev	AAACGGAACCTACCTTCGGCAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T248	GGTGCCGAAGGTAGGTTCCGGGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo fwd	TAGGTGCCGAAGGTAGGTTCCG
+Oligo rev	AAACCGGAACCTACCTTCGGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T249	GGTTCCGGGGTTTCCTTGAAAGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo fwd	TAGGTTCCGGGGTTTCCTTGAA
+Oligo rev	AAACTTCAAGGAAACCCCGGAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T250	AAAGGTAGCGACAAGAAGAACGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo adding fwd	TAggAAAGGTAGCGACAAGAAGAA
+Oligo adding rev	AAACTTCTTCTTGTCGCTACCTTT
+Oligo substituting fwd	TAggAGGTAGCGACAAGAAGAA
+Oligo substituting rev	AAACTTCTTCTTGTCGCTACCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T251	AAGGTAGCGACAAGAAGAACGGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggAAGGTAGCGACAAGAAGAAC
+Oligo adding rev	AAACGTTCTTCTTGTCGCTACCTT
+Oligo substituting fwd	TAggGGTAGCGACAAGAAGAAC
+Oligo substituting rev	AAACGTTCTTCTTGTCGCTACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T252	AACGGGTGTTTCTTGATCGCAGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAggAACGGGTGTTTCTTGATCGC
+Oligo adding rev	AAACGCGATCAAGAAACACCCGTT
+Oligo substituting fwd	TAggCGGGTGTTTCTTGATCGC
+Oligo substituting rev	AAACGCGATCAAGAAACACCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T253	ACGGGTGTTTCTTGATCGCAGGG	1000	CRISPRater score	0.51 (LOW)
+Oligo adding fwd	TAggACGGGTGTTTCTTGATCGCA
+Oligo adding rev	AAACTGCGATCAAGAAACACCCGT
+Oligo substituting fwd	TAggGGGTGTTTCTTGATCGCA
+Oligo substituting rev	AAACTGCGATCAAGAAACACCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T254	GTGTTTCTTGATCGCAGGGATGG	1000	CRISPRater score	0.53 (LOW)
+Oligo adding fwd	TAgGTGTTTCTTGATCGCAGGGA
+Oligo adding rev	AAACTCCCTGCGATCAAGAAACA
+Oligo substituting fwd	TAGgGTTTCTTGATCGCAGGGA
+Oligo substituting rev	AAACTCCCTGCGATCAAGAAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T255	TGACGAGCATCTTGCAAATCAGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggTGACGAGCATCTTGCAAATC
+Oligo adding rev	AAACGATTTGCAAGATGCTCGTCA
+Oligo substituting fwd	TAggACGAGCATCTTGCAAATC
+Oligo substituting rev	AAACGATTTGCAAGATGCTCGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T256	GCAAATCAGGTCCTGCGCAAAGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAgGCAAATCAGGTCCTGCGCAA
+Oligo adding rev	AAACTTGCGCAGGACCTGATTTG
+Oligo substituting fwd	TAGgAAATCAGGTCCTGCGCAA
+Oligo substituting rev	AAACTTGCGCAGGACCTGATTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T257	CAAATCAGGTCCTGCGCAAAGGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAggCAAATCAGGTCCTGCGCAAA
+Oligo adding rev	AAACTTTGCGCAGGACCTGATTTG
+Oligo substituting fwd	TAggAATCAGGTCCTGCGCAAA
+Oligo substituting rev	AAACTTTGCGCAGGACCTGATT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T258	AAATCAGGTCCTGCGCAAAGGGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggAAATCAGGTCCTGCGCAAAG
+Oligo adding rev	AAACCTTTGCGCAGGACCTGATTT
+Oligo substituting fwd	TAggATCAGGTCCTGCGCAAAG
+Oligo substituting rev	AAACCTTTGCGCAGGACCTGAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T259	CTGCGCAAAGGGGTCGATGTCGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAggCTGCGCAAAGGGGTCGATGT
+Oligo adding rev	AAACACATCGACCCCTTTGCGCAG
+Oligo substituting fwd	TAggGCGCAAAGGGGTCGATGT
+Oligo substituting rev	AAACACATCGACCCCTTTGCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T260	TGCGCAAAGGGGTCGATGTCGGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggTGCGCAAAGGGGTCGATGTC
+Oligo adding rev	AAACGACATCGACCCCTTTGCGCA
+Oligo substituting fwd	TAggCGCAAAGGGGTCGATGTC
+Oligo substituting rev	AAACGACATCGACCCCTTTGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T261	GCAAAGGGGTCGATGTCGGGAGG	1000	CRISPRater score	0.74 (MEDIUM)
+Oligo adding fwd	TAgGCAAAGGGGTCGATGTCGGG
+Oligo adding rev	AAACCCCGACATCGACCCCTTTG
+Oligo substituting fwd	TAGgAAAGGGGTCGATGTCGGG
+Oligo substituting rev	AAACCCCGACATCGACCCCTTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T262	CTCGAAGAGAGTTCGCAAGTCGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggCTCGAAGAGAGTTCGCAAGT
+Oligo adding rev	AAACACTTGCGAACTCTCTTCGAG
+Oligo substituting fwd	TAggCGAAGAGAGTTCGCAAGT
+Oligo substituting rev	AAACACTTGCGAACTCTCTTCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T263	TCGCAAGTCGGAAGAGTCGAAGG	1000	CRISPRater score	0.53 (LOW)
+Oligo adding fwd	TAggTCGCAAGTCGGAAGAGTCGA
+Oligo adding rev	AAACTCGACTCTTCCGACTTGCGA
+Oligo substituting fwd	TAggGCAAGTCGGAAGAGTCGA
+Oligo substituting rev	AAACTCGACTCTTCCGACTTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T264	CGCAAGTCGGAAGAGTCGAAGGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggCGCAAGTCGGAAGAGTCGAA
+Oligo adding rev	AAACTTCGACTCTTCCGACTTGCG
+Oligo substituting fwd	TAggCAAGTCGGAAGAGTCGAA
+Oligo substituting rev	AAACTTCGACTCTTCCGACTTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T265	GCAAGTCGGAAGAGTCGAAGGGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAgGCAAGTCGGAAGAGTCGAAG
+Oligo adding rev	AAACCTTCGACTCTTCCGACTTG
+Oligo substituting fwd	TAGgAAGTCGGAAGAGTCGAAG
+Oligo substituting rev	AAACCTTCGACTCTTCCGACTT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T266	TGCGTAGAGAATGACACCGCAGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAggTGCGTAGAGAATGACACCGC
+Oligo adding rev	AAACGCGGTGTCATTCTCTACGCA
+Oligo substituting fwd	TAggCGTAGAGAATGACACCGC
+Oligo substituting rev	AAACGCGGTGTCATTCTCTACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T267	ACCGCAGGACCAGACGTCTGCGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAggACCGCAGGACCAGACGTCTG
+Oligo adding rev	AAACCAGACGTCTGGTCCTGCGGT
+Oligo substituting fwd	TAggCGCAGGACCAGACGTCTG
+Oligo substituting rev	AAACCAGACGTCTGGTCCTGCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T268	CGTACACGACGTTCTCGACGAGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggCGTACACGACGTTCTCGACG
+Oligo adding rev	AAACCGTCGAGAACGTCGTGTACG
+Oligo substituting fwd	TAggTACACGACGTTCTCGACG
+Oligo substituting rev	AAACCGTCGAGAACGTCGTGTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T269	GACGTTCTCGACGAGGAGCTCGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGACGTTCTCGACGAGGAGCT
+Oligo adding rev	AAACAGCTCCTCGTCGAGAACGT
+Oligo substituting fwd	TAGgCGTTCTCGACGAGGAGCT
+Oligo substituting rev	AAACAGCTCCTCGTCGAGAACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T270	ACGTTCTCGACGAGGAGCTCGGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAggACGTTCTCGACGAGGAGCTC
+Oligo adding rev	AAACGAGCTCCTCGTCGAGAACGT
+Oligo substituting fwd	TAggGTTCTCGACGAGGAGCTC
+Oligo substituting rev	AAACGAGCTCCTCGTCGAGAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T271	AGCTCGGGAGCAGCGTAGTGCGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAggAGCTCGGGAGCAGCGTAGTG
+Oligo adding rev	AAACCACTACGCTGCTCCCGAGCT
+Oligo substituting fwd	TAggCTCGGGAGCAGCGTAGTG
+Oligo substituting rev	AAACCACTACGCTGCTCCCGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T272	AGCGTAGTGCGGACTCCCACAGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggAGCGTAGTGCGGACTCCCAC
+Oligo adding rev	AAACGTGGGAGTCCGCACTACGCT
+Oligo substituting fwd	TAggCGTAGTGCGGACTCCCAC
+Oligo substituting rev	AAACGTGGGAGTCCGCACTACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T273	GTGCGGACTCCCACAGGCGCTGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGTGCGGACTCCCACAGGCGC
+Oligo adding rev	AAACGCGCCTGTGGGAGTCCGCA
+Oligo substituting fwd	TAGgGCGGACTCCCACAGGCGC
+Oligo substituting rev	AAACGCGCCTGTGGGAGTCCGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T274	GACTCCCACAGGCGCTGGTGAGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAgGACTCCCACAGGCGCTGGTG
+Oligo adding rev	AAACCACCAGCGCCTGTGGGAGT
+Oligo substituting fwd	TAGgCTCCCACAGGCGCTGGTG
+Oligo substituting rev	AAACCACCAGCGCCTGTGGGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T275	TCCCACAGGCGCTGGTGAGGAGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggTCCCACAGGCGCTGGTGAGG
+Oligo adding rev	AAACCCTCACCAGCGCCTGTGGGA
+Oligo substituting fwd	TAggCCACAGGCGCTGGTGAGG
+Oligo substituting rev	AAACCCTCACCAGCGCCTGTGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T276	TGAGGAGGCTGTCGACAGCCTGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggTGAGGAGGCTGTCGACAGCC
+Oligo adding rev	AAACGGCTGTCGACAGCCTCCTCA
+Oligo substituting fwd	TAggAGGAGGCTGTCGACAGCC
+Oligo substituting rev	AAACGGCTGTCGACAGCCTCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T277	CGATCTTGATGTTGCCGTCCTGG	1000	CRISPRater score	0.55 (LOW)
+Oligo adding fwd	TAggCGATCTTGATGTTGCCGTCC
+Oligo adding rev	AAACGGACGGCAACATCAAGATCG
+Oligo substituting fwd	TAggATCTTGATGTTGCCGTCC
+Oligo substituting rev	AAACGGACGGCAACATCAAGAT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T278	CTGGTCGAGCAATATGTTCTCGG	1000	CRISPRater score	0.75 (HIGH)
+Oligo adding fwd	TAggCTGGTCGAGCAATATGTTCT
+Oligo adding rev	AAACAGAACATATTGCTCGACCAG
+Oligo substituting fwd	TAggGGTCGAGCAATATGTTCT
+Oligo substituting rev	AAACAGAACATATTGCTCGACC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T279	TGGTCGAGCAATATGTTCTCGGG	1000	CRISPRater score	0.61 (MEDIUM)
+Oligo adding fwd	TAggTGGTCGAGCAATATGTTCTC
+Oligo adding rev	AAACGAGAACATATTGCTCGACCA
+Oligo substituting fwd	TAggGTCGAGCAATATGTTCTC
+Oligo substituting rev	AAACGAGAACATATTGCTCGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T280	CTCGATGAGCGATGTCGAAGCGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggCTCGATGAGCGATGTCGAAG
+Oligo adding rev	AAACCTTCGACATCGCTCATCGAG
+Oligo substituting fwd	TAggCGATGAGCGATGTCGAAG
+Oligo substituting rev	AAACCTTCGACATCGCTCATCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T281	GATGAGCGATGTCGAAGCGGTGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAgGATGAGCGATGTCGAAGCGG
+Oligo adding rev	AAACCCGCTTCGACATCGCTCAT
+Oligo substituting fwd	TAGgTGAGCGATGTCGAAGCGG
+Oligo substituting rev	AAACCCGCTTCGACATCGCTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T282	CGACTGCGCTGATGACCTGCTGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggCGACTGCGCTGATGACCTGC
+Oligo adding rev	AAACGCAGGTCATCAGCGCAGTCG
+Oligo substituting fwd	TAggACTGCGCTGATGACCTGC
+Oligo substituting rev	AAACGCAGGTCATCAGCGCAGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T283	GATCGAAGAGCTCGCCGCCTTGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAgGATCGAAGAGCTCGCCGCCT
+Oligo adding rev	AAACAGGCGGCGAGCTCTTCGAT
+Oligo substituting fwd	TAGgTCGAAGAGCTCGCCGCCT
+Oligo substituting rev	AAACAGGCGGCGAGCTCTTCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T284	CTTGGACGTACTCCAGAATGAGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggCTTGGACGTACTCCAGAATG
+Oligo adding rev	AAACCATTCTGGAGTACGTCCAAG
+Oligo substituting fwd	TAggTGGACGTACTCCAGAATG
+Oligo substituting rev	AAACCATTCTGGAGTACGTCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T285	CAGAATGAGGTATAGTTCAGTGG	1000	CRISPRater score	0.68 (MEDIUM)
+Oligo adding fwd	TAggCAGAATGAGGTATAGTTCAG
+Oligo adding rev	AAACCTGAACTATACCTCATTCTG
+Oligo substituting fwd	TAggGAATGAGGTATAGTTCAG
+Oligo substituting rev	AAACCTGAACTATACCTCATTC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T286	ACGTCTCCCAGACGTCGTAGAGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggACGTCTCCCAGACGTCGTAG
+Oligo adding rev	AAACCTACGACGTCTGGGAGACGT
+Oligo substituting fwd	TAggGTCTCCCAGACGTCGTAG
+Oligo substituting rev	AAACCTACGACGTCTGGGAGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T287	GTCGTAGAGGCGCAGAATGTTGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAgGTCGTAGAGGCGCAGAATGT
+Oligo adding rev	AAACACATTCTGCGCCTCTACGA
+Oligo substituting fwd	TAGgCGTAGAGGCGCAGAATGT
+Oligo substituting rev	AAACACATTCTGCGCCTCTACG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T288	TCGTAGAGGCGCAGAATGTTGGG	1000	CRISPRater score	0.44 (LOW)
+Oligo adding fwd	TAggTCGTAGAGGCGCAGAATGTT
+Oligo adding rev	AAACAACATTCTGCGCCTCTACGA
+Oligo substituting fwd	TAggGTAGAGGCGCAGAATGTT
+Oligo substituting rev	AAACAACATTCTGCGCCTCTAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T289	CGTAGAGGCGCAGAATGTTGGGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggCGTAGAGGCGCAGAATGTTG
+Oligo adding rev	AAACCAACATTCTGCGCCTCTACG
+Oligo substituting fwd	TAggTAGAGGCGCAGAATGTTG
+Oligo substituting rev	AAACCAACATTCTGCGCCTCTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T290	AGAGGCGCAGAATGTTGGGGTGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggAGAGGCGCAGAATGTTGGGG
+Oligo adding rev	AAACCCCCAACATTCTGCGCCTCT
+Oligo substituting fwd	TAggAGGCGCAGAATGTTGGGG
+Oligo substituting rev	AAACCCCCAACATTCTGCGCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T291	GCGCAGAATGTTGGGGTGGTCGG	1000	CRISPRater score	0.54 (LOW)
+Oligo adding fwd	TAgGCGCAGAATGTTGGGGTGGT
+Oligo adding rev	AAACACCACCCCAACATTCTGCG
+Oligo substituting fwd	TAGgGCAGAATGTTGGGGTGGT
+Oligo substituting rev	AAACACCACCCCAACATTCTGC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T292	GATGACGACCTCGCGTTCAATGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAgGATGACGACCTCGCGTTCAA
+Oligo adding rev	AAACTTGAACGCGAGGTCGTCAT
+Oligo substituting fwd	TAGgTGACGACCTCGCGTTCAA
+Oligo substituting rev	AAACTTGAACGCGAGGTCGTCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T293	AATGGATAGCTTGTAGCGCTCGG	1000	CRISPRater score	0.63 (MEDIUM)
+Oligo adding fwd	TAggAATGGATAGCTTGTAGCGCT
+Oligo adding rev	AAACAGCGCTACAAGCTATCCATT
+Oligo substituting fwd	TAggTGGATAGCTTGTAGCGCT
+Oligo substituting rev	AAACAGCGCTACAAGCTATCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T294	CTTGTAGCGCTCGGCCGTGTCGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggCTTGTAGCGCTCGGCCGTGT
+Oligo adding rev	AAACACACGGCCGAGCGCTACAAG
+Oligo substituting fwd	TAggTGTAGCGCTCGGCCGTGT
+Oligo substituting rev	AAACACACGGCCGAGCGCTACA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T295	CGTGTCGGCGATGCTGCTGTTGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAggCGTGTCGGCGATGCTGCTGT
+Oligo adding rev	AAACACAGCAGCATCGCCGACACG
+Oligo substituting fwd	TAggTGTCGGCGATGCTGCTGT
+Oligo substituting rev	AAACACAGCAGCATCGCCGACA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T296	GTGTCGGCGATGCTGCTGTTGGG	1000	CRISPRater score	0.64 (MEDIUM)
+Oligo adding fwd	TAgGTGTCGGCGATGCTGCTGTT
+Oligo adding rev	AAACAACAGCAGCATCGCCGACA
+Oligo substituting fwd	TAGgGTCGGCGATGCTGCTGTT
+Oligo substituting rev	AAACAACAGCAGCATCGCCGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T297	TGTCGGCGATGCTGCTGTTGGGG	1000	CRISPRater score	0.81 (HIGH)
+Oligo adding fwd	TAggTGTCGGCGATGCTGCTGTTG
+Oligo adding rev	AAACCAACAGCAGCATCGCCGACA
+Oligo substituting fwd	TAggTCGGCGATGCTGCTGTTG
+Oligo substituting rev	AAACCAACAGCAGCATCGCCGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T298	TTTAGAGATAATCTTGATAGCGG	1000	CRISPRater score	0.76 (HIGH)
+Oligo adding fwd	TAggTTTAGAGATAATCTTGATAG
+Oligo adding rev	AAACCTATCAAGATTATCTCTAAA
+Oligo substituting fwd	TAggTAGAGATAATCTTGATAG
+Oligo substituting rev	AAACCTATCAAGATTATCTCTA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T299	CCTGCGAGAAGCCATAAGCAAGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggCCTGCGAGAAGCCATAAGCA
+Oligo adding rev	AAACTGCTTATGGCTTCTCGCAGG
+Oligo substituting fwd	TAggTGCGAGAAGCCATAAGCA
+Oligo substituting rev	AAACTGCTTATGGCTTCTCGCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T300	AGCCATAAGCAAGGACGCTCTGG	1000	CRISPRater score	0.52 (LOW)
+Oligo adding fwd	TAggAGCCATAAGCAAGGACGCTC
+Oligo adding rev	AAACGAGCGTCCTTGCTTATGGCT
+Oligo substituting fwd	TAggCCATAAGCAAGGACGCTC
+Oligo substituting rev	AAACGAGCGTCCTTGCTTATGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T301	GCCATAAGCAAGGACGCTCTGGG	1000	CRISPRater score	0.69 (MEDIUM)
+Oligo adding fwd	TAgGCCATAAGCAAGGACGCTCT
+Oligo adding rev	AAACAGAGCGTCCTTGCTTATGG
+Oligo substituting fwd	TAGgCATAAGCAAGGACGCTCT
+Oligo substituting rev	AAACAGAGCGTCCTTGCTTATG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T302	CAAGGACGCTCTGGGCGAGATGG	1000	CRISPRater score	0.67 (MEDIUM)
+Oligo adding fwd	TAggCAAGGACGCTCTGGGCGAGA
+Oligo adding rev	AAACTCTCGCCCAGAGCGTCCTTG
+Oligo substituting fwd	TAggAGGACGCTCTGGGCGAGA
+Oligo substituting rev	AAACTCTCGCCCAGAGCGTCCT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T303	AAGGACGCTCTGGGCGAGATGGG	1000	CRISPRater score	0.59 (MEDIUM)
+Oligo adding fwd	TAggAAGGACGCTCTGGGCGAGAT
+Oligo adding rev	AAACATCTCGCCCAGAGCGTCCTT
+Oligo substituting fwd	TAggGGACGCTCTGGGCGAGAT
+Oligo substituting rev	AAACATCTCGCCCAGAGCGTCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T304	CGCTCTGGGCGAGATGGGATCGG	1000	CRISPRater score	0.62 (MEDIUM)
+Oligo adding fwd	TAggCGCTCTGGGCGAGATGGGAT
+Oligo adding rev	AAACATCCCATCTCGCCCAGAGCG
+Oligo substituting fwd	TAggCTCTGGGCGAGATGGGAT
+Oligo substituting rev	AAACATCCCATCTCGCCCAGAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T305	GCTCTGGGCGAGATGGGATCGGG	1000	CRISPRater score	0.80 (HIGH)
+Oligo adding fwd	TAgGCTCTGGGCGAGATGGGATC
+Oligo adding rev	AAACGATCCCATCTCGCCCAGAG
+Oligo substituting fwd	TAGgTCTGGGCGAGATGGGATC
+Oligo substituting rev	AAACGATCCCATCTCGCCCAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T306	CTCTGGGCGAGATGGGATCGGGG	1000	CRISPRater score	0.74 (HIGH)
+Oligo adding fwd	TAggCTCTGGGCGAGATGGGATCG
+Oligo adding rev	AAACCGATCCCATCTCGCCCAGAG
+Oligo substituting fwd	TAggCTGGGCGAGATGGGATCG
+Oligo substituting rev	AAACCGATCCCATCTCGCCCAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T307	CTTCCAGAGACCGATCATCTTGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggCTTCCAGAGACCGATCATCT
+Oligo adding rev	AAACAGATGATCGGTCTCTGGAAG
+Oligo substituting fwd	TAggTCCAGAGACCGATCATCT
+Oligo substituting rev	AAACAGATGATCGGTCTCTGGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T308	TTCCAGAGACCGATCATCTTGGG	1000	CRISPRater score	0.72 (MEDIUM)
+Oligo adding fwd	TAggTTCCAGAGACCGATCATCTT
+Oligo adding rev	AAACAAGATGATCGGTCTCTGGAA
+Oligo substituting fwd	TAggCCAGAGACCGATCATCTT
+Oligo substituting rev	AAACAAGATGATCGGTCTCTGG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T309	TCCAGAGACCGATCATCTTGGGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo adding fwd	TAggTCCAGAGACCGATCATCTTG
+Oligo adding rev	AAACCAAGATGATCGGTCTCTGGA
+Oligo substituting fwd	TAggCAGAGACCGATCATCTTG
+Oligo substituting rev	AAACCAAGATGATCGGTCTCTG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T310	ATCTTGGGGTCGCTCTTCTGCGG	1000	CRISPRater score	0.83 (HIGH)
+Oligo adding fwd	TAggATCTTGGGGTCGCTCTTCTG
+Oligo adding rev	AAACCAGAAGAGCGACCCCAAGAT
+Oligo substituting fwd	TAggCTTGGGGTCGCTCTTCTG
+Oligo substituting rev	AAACCAGAAGAGCGACCCCAAG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T311	TCTTGGGGTCGCTCTTCTGCGGG	1000	CRISPRater score	0.77 (HIGH)
+Oligo adding fwd	TAggTCTTGGGGTCGCTCTTCTGC
+Oligo adding rev	AAACGCAGAAGAGCGACCCCAAGA
+Oligo substituting fwd	TAggTTGGGGTCGCTCTTCTGC
+Oligo substituting rev	AAACGCAGAAGAGCGACCCCAA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T312	CTTGGGGTCGCTCTTCTGCGGGG	1000	CRISPRater score	0.85 (HIGH)
+Oligo adding fwd	TAggCTTGGGGTCGCTCTTCTGCG
+Oligo adding rev	AAACCGCAGAAGAGCGACCCCAAG
+Oligo substituting fwd	TAggTGGGGTCGCTCTTCTGCG
+Oligo substituting rev	AAACCGCAGAAGAGCGACCCCA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T313	GGGTCGCTCTTCTGCGGGGTCGG	1000	CRISPRater score	0.51 (LOW)
+Oligo fwd	TAGGGTCGCTCTTCTGCGGGGT
+Oligo rev	AAACACCCCGCAGAAGAGCGAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T314	GCTCTTCTGCGGGGTCGGAAAGG	1000	CRISPRater score	0.71 (MEDIUM)
+Oligo adding fwd	TAgGCTCTTCTGCGGGGTCGGAA
+Oligo adding rev	AAACTTCCGACCCCGCAGAAGAG
+Oligo substituting fwd	TAGgTCTTCTGCGGGGTCGGAA
+Oligo substituting rev	AAACTTCCGACCCCGCAGAAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T315	CTTCTGCGGGGTCGGAAAGGCGG	1000	CRISPRater score	0.78 (HIGH)
+Oligo adding fwd	TAggCTTCTGCGGGGTCGGAAAGG
+Oligo adding rev	AAACCCTTTCCGACCCCGCAGAAG
+Oligo substituting fwd	TAggTCTGCGGGGTCGGAAAGG
+Oligo substituting rev	AAACCCTTTCCGACCCCGCAGA
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T316	CGGGGTCGGAAAGGCGGACATGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAggCGGGGTCGGAAAGGCGGACA
+Oligo adding rev	AAACTGTCCGCCTTTCCGACCCCG
+Oligo substituting fwd	TAggGGGTCGGAAAGGCGGACA
+Oligo substituting rev	AAACTGTCCGCCTTTCCGACCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T317	GGCGGACATGGCGAGTTAGCTGG	1000	CRISPRater score	0.70 (MEDIUM)
+Oligo fwd	TAGGCGGACATGGCGAGTTAGC
+Oligo rev	AAACGCTAACTCGCCATGTCCG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T318	GGACATGGCGAGTTAGCTGGTGG	1000	CRISPRater score	0.73 (MEDIUM)
+Oligo fwd	TAGGACATGGCGAGTTAGCTGG
+Oligo rev	AAACCCAGCTAACTCGCCATGT
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T319	GACATGGCGAGTTAGCTGGTGGG	1000	CRISPRater score	0.65 (MEDIUM)
+Oligo adding fwd	TAgGACATGGCGAGTTAGCTGGT
+Oligo adding rev	AAACACCAGCTAACTCGCCATGT
+Oligo substituting fwd	TAGgCATGGCGAGTTAGCTGGT
+Oligo substituting rev	AAACACCAGCTAACTCGCCATG
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T320	GAGTTAGCTGGTGGGCGCGTAGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAgGAGTTAGCTGGTGGGCGCGT
+Oligo adding rev	AAACACGCGCCCACCAGCTAACT
+Oligo substituting fwd	TAGgGTTAGCTGGTGGGCGCGT
+Oligo substituting rev	AAACACGCGCCCACCAGCTAAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T321	GTGGGCGCGTAGGTAGATTGTGG	1000	CRISPRater score	0.79 (HIGH)
+Oligo adding fwd	TAgGTGGGCGCGTAGGTAGATTG
+Oligo adding rev	AAACCAATCTACCTACGCGCCCA
+Oligo substituting fwd	TAGgGGGCGCGTAGGTAGATTG
+Oligo substituting rev	AAACCAATCTACCTACGCGCCC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+
+T322	GCGTAGGTAGATTGTGGCCGTGG	1000	CRISPRater score	0.60 (MEDIUM)
+Oligo adding fwd	TAgGCGTAGGTAGATTGTGGCCG
+Oligo adding rev	AAACCGGCCACAATCTACCTACG
+Oligo substituting fwd	TAGgGTAGGTAGATTGTGGCCG
+Oligo substituting rev	AAACCGGCCACAATCTACCTAC
+Chromosome	start	end	strand	MM	target_seq	PAM	alignment	distance	position	gene name	gene id
+

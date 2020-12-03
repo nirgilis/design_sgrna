@@ -1,0 +1,1 @@
+ID	proteinId	Side	Score	off_targets	gRNA	fw_primer	rv_primer
