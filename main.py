@@ -40,3 +40,4 @@ os.system(cctop_command)
 
 #parse results and output the required files
 ##todo
+test = "lalala"
