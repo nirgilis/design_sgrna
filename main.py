@@ -19,7 +19,7 @@ database = "Schco3"
 
 
 # Confirm that bowtie is in the PATH. If it is, then extract the directory
-# of the executable. This is needed by CCTOP. 
+# of the executable. This is needed by CCTOP.
 # NOTE: this is bowtie, not bowtie2!
 bowtie_path = shutil.which("bowtie")
 if not bowtie_path:
@@ -31,25 +31,26 @@ os.system("bowtie-build %s ./data/temp/%s" % (genome_assembly, database))
 
 # run cctop
 cctop_command = ("python ./bin/cctop_standalone/CCTop.py "
-                "--input {input_file} "
-                "--index ./data/temp/{database} "
-                "--bowtie {bowtie_location} "
-                "--pam NGG "
-                "--sgRNA5 NN "
-                "--totalMM 4 "
-                "--output ./data/temp/".format(
-                input_file = input_file,
-                database = database,
-                bowtie_location = bowtie_location))
-                
+                 "--input {input_file} "
+                 "--index ./data/temp/{database} "
+                 "--bowtie {bowtie_location} "
+                 "--pam NGG "
+                 "--sgRNA5 NN "
+                 "--totalMM 4 "
+                 "--output ./data/temp/".format(
+                     input_file=input_file,
+                     database=database,
+                     bowtie_location=bowtie_location))
+
 os.system(cctop_command)
 
 # parse results and output the required files
 # TODO: Write code to parse output of CCTop
 
+
 def reverse_complement(protospacer):
     reverse_protospacer = ""
-    
+
     for nt in protospacer.strip()[::-1]:
         if nt == "A":
             reverse_protospacer = reverse_protospacer + "T"
@@ -64,6 +65,7 @@ def reverse_complement(protospacer):
                             "Please check your input sequences")
     return(reverse_protospacer)
 
+
 def design_primers_sgRNA(protospacer):
     fw_addition = "TAATACGACTCACTATAG"
     rv_addition = "TTCTAGCTCTAAAAC"
@@ -75,7 +77,8 @@ def design_primers_sgRNA(protospacer):
     rv_primer = rv_addition + rc_protospacer
     return(fw_primer, rv_primer)
 
-#identify sequences in fasta
+
+# identify sequences in fasta
 genes_analyzed = []
 for sequence in SeqIO.parse(open(input_file), "fasta"):
     genes_analyzed.append(sequence.id)
@@ -97,7 +100,7 @@ for gene in genes_analyzed:
     # Next, we loop over te results inside the file
     for line in results_file.readlines()[9:]:
         if line.split("\t")[0] == "T" + str(result_counter):
-            off_target_counter = -1 # since the first hit is the right hit we start with -1
+            off_target_counter = -1  # since the first hit is the right hit we start with -1
             protospacer = line.split("\t")[1][0:20]
             raw_score = line.split("\t")[4]
             cleaned_score = raw_score.split(" ")[0]
@@ -115,16 +118,15 @@ for gene in genes_analyzed:
                               "{protospacer}\t"
                               "{fw_primer}\t"
                               "{rv_primer}\n".format(
-                                ID = "T" + str(result_counter - 1),
-                                gene = gene,
-                                score = cleaned_score,
-                                off_target_count = str(off_target_counter),
-                                protospacer = protospacer,
-                                fw_primer = fw_primer,
-                                rv_primer = rv_primer))
+                                  ID="T" + str(result_counter - 1),
+                                  gene=gene,
+                                  score=cleaned_score,
+                                  off_target_count=str(off_target_counter),
+                                  protospacer=protospacer,
+                                  fw_primer=fw_primer,
+                                  rv_primer=rv_primer))
     output_file.write("\n")
-        
+
     results_file.close()
 
 output_file.close()
-
