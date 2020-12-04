@@ -52,13 +52,13 @@ def reverse_complement(protospacer):
     
     for nt in protospacer.strip()[::-1]:
         if nt == "A":
-            reverse_protospacer.append("T")
+            reverse_protospacer = reverse_protospacer + "T"
         elif nt == "T":
-            reverse_protospacer.append("A")
+            reverse_protospacer = reverse_protospacer + "A"
         elif nt == "C":
-            reverse_protospacer.append("G")
+            reverse_protospacer = reverse_protospacer + "G"
         elif nt == "G":
-            reverse_protospacer.append("C")
+            reverse_protospacer = reverse_protospacer + "C"
         else:
             raise Exception("invalid character in protospacer. "
                             "Please check your input sequences")
@@ -70,7 +70,7 @@ def design_primers_sgRNA(protospacer):
     if protospacer[0] == "G":
         fw_primer = fw_addition + protospacer
     else:
-        fw_primer = fw_addition + "G" + "protospacer"
+        fw_primer = fw_addition + "G" + protospacer
     rc_protospacer = reverse_complement(protospacer)
     rv_primer = rv_addition + rc_protospacer
     return(fw_primer, rv_primer)
@@ -117,12 +117,14 @@ for gene in genes_analyzed:
                               "{rv_primer}\n".format(
                                 ID = "T" + str(result_counter - 1),
                                 gene = gene,
-                                score = raw_score,
+                                score = cleaned_score,
                                 off_target_count = str(off_target_counter),
                                 protospacer = protospacer,
                                 fw_primer = fw_primer,
                                 rv_primer = rv_primer))
-        results_file.close()
+    output_file.write("\n")
+        
+    results_file.close()
 
 output_file.close()
 
