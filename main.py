@@ -122,7 +122,7 @@ for gene in genes_analyzed:
                                 protospacer = protospacer,
                                 fw_primer = fw_primer,
                                 rv_primer = rv_primer))
-        
+        results_file.close()
 
-
+output_file.close()
 
